@@ -1,0 +1,26 @@
+version: "2.0"
+
+# stories:
+#  - story: init and main form 
+#    steps:
+#    - intent: greet
+#    - action: init_form
+#    - action: main_form
+#    - action: k10_form
+#    - action: action_submit_k10
+
+stories:
+- story: init and main form 
+  steps:
+  - intent: greet
+  - action: init_form
+  - action: main_form
+  - action: utter_ask_take_k10
+  - checkpoint: check_k10_test
+
+- story: k10 test form
+  steps: 
+  - checkpoint: check_k10_test
+  - intent: affirm 
+  - action: k10_form
+  - action: action_submit_k10

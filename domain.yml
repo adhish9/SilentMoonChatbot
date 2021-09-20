@@ -1,0 +1,488 @@
+version: "2.0"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+
+entities:
+- name
+- name_bot
+- bot_name
+- sleep_hours
+- blood_test
+- mood
+- mood_intense
+- mood_reason
+- self_harm
+- take_k10
+
+slots:
+  name:
+    type: rasa.shared.core.slots.TextSlot
+    initial_value: null
+    auto_fill: true
+    influence_conversation: true
+  name_bot:
+    type: rasa.shared.core.slots.TextSlot
+    initial_value: null
+    auto_fill: true
+    influence_conversation: true
+  bot_name:
+    type: rasa.shared.core.slots.TextSlot
+    initial_value: null
+    auto_fill: true
+    influence_conversation: true
+  sleep_hours:
+    type: rasa.shared.core.slots.TextSlot
+    initial_value: null
+    auto_fill: true
+    influence_conversation: true
+  blood_test:
+    type: rasa.shared.core.slots.TextSlot
+    initial_value: null
+    auto_fill: true
+    influence_conversation: true
+  mood:
+    type: rasa.shared.core.slots.TextSlot
+    initial_value: null
+    auto_fill: true
+    influence_conversation: true
+  mood_intense:
+    type: rasa.shared.core.slots.TextSlot
+    initial_value: null
+    auto_fill: true
+    influence_conversation: true
+  mood_reason:
+    type: rasa.shared.core.slots.TextSlot
+    initial_value: null
+    auto_fill: true
+    influence_conversation: true
+  self_harm:
+    type: rasa.shared.core.slots.TextSlot
+    initial_value: null
+    auto_fill: true
+    influence_conversation: true
+  take_k10:
+    type: rasa.shared.core.slots.TextSlot
+    initial_value: null
+    auto_fill: true
+    influence_conversation: true
+  age:
+    type: rasa.shared.core.slots.TextSlot
+    initial_value: null
+    auto_fill: true
+    influence_conversation: true
+  feel:
+    type: rasa.shared.core.slots.TextSlot
+    initial_value: null
+    auto_fill: true
+    influence_conversation: true
+  q01:
+    type: rasa.shared.core.slots.TextSlot
+    initial_value: null
+    auto_fill: true
+    influence_conversation: true
+  q02:
+    type: rasa.shared.core.slots.TextSlot
+    initial_value: null
+    auto_fill: true
+    influence_conversation: true
+  q03:
+    type: rasa.shared.core.slots.TextSlot
+    initial_value: null
+    auto_fill: true
+    influence_conversation: true
+  q04:
+    type: rasa.shared.core.slots.TextSlot
+    initial_value: null
+    auto_fill: true
+    influence_conversation: true
+  q05:
+    type: rasa.shared.core.slots.TextSlot
+    initial_value: null
+    auto_fill: true
+    influence_conversation: true
+  q06:
+    type: rasa.shared.core.slots.TextSlot
+    initial_value: null
+    auto_fill: true
+    influence_conversation: true
+  q07:
+    type: rasa.shared.core.slots.TextSlot
+    initial_value: null
+    auto_fill: true
+    influence_conversation: true
+  q08:
+    type: rasa.shared.core.slots.TextSlot
+    initial_value: null
+    auto_fill: true
+    influence_conversation: true
+  q09:
+    type: rasa.shared.core.slots.TextSlot
+    initial_value: null
+    auto_fill: true
+    influence_conversation: true
+  q10:
+    type: rasa.shared.core.slots.TextSlot
+    initial_value: null
+    auto_fill: true
+    influence_conversation: true
+
+responses:
+  utter_greet:
+  - text: "Hey! How are you?"
+
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_happy:
+  - text: "Great, carry on!"
+
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_iamabot:
+  - text: "I am a bot, powered by Rasa."
+
+  utter_ask_name:
+  - text: What should I address you as?
+
+  utter_ask_name_bot:
+  - buttons:
+    - payload: /affirm
+      title: Yes
+    - payload: /deny
+      title: No
+    text: Would you like to name me?
+
+  utter_ask_bot_name:
+  - text: What would you like to name me?
+  
+  utter_nice_name:
+  - text: "Nice name {name}!"
+
+  utter_thank_name:
+  - text: "🤖 Thank you for giving me an identity, {name}!
+          I'm excited to get to know you! 😃"
+
+  utter_ask_sleep_hours:
+  - buttons:
+    - payload: /inform_sleep{{"sleep_hours":"<5"}}
+      title: Less than 5 hours
+    - payload: /inform_sleep{{"sleep_hours":"5-8"}}
+      title: 5-8 Hours
+    - payload: /inform_sleep{{"sleep_hours":"8-10"}}
+      title: 8-10 hours
+    - payload: /inform_sleep{{"sleep_hours":">10"}}
+      title: More than 10 hours
+    text: For how many hours have you been sleeping per day for the past few days?
+  
+  utter_ask_blood_test:
+  - buttons:
+    - payload: /inform_blood_test{{"blood_test":"In the last month"}}
+      title: In the last month
+    - payload: /inform_blood_test{{"blood_test":"A couple of months back"}}
+      title: A couple of months back
+    - payload: /inform_blood_test{{"blood_test":"In the last six months"}}
+      title: In the last six months
+    - payload: /inform_blood_test{{"blood_test":"In the last year"}}
+      title: In the last year
+    text: When was the last time you got a blood test done?
+  
+  utter_ask_mood:
+  - buttons:
+    - payload: "Excited"
+      title: Excited 🤩
+    - payload: "Happy"
+      title: Happy 😃
+    - payload: "Calm"
+      title: Calm 🙂
+    - payload: "Content"
+      title: Content 😌
+    - payload: "Loved"
+      title: Loved 🥰
+    - payload: /inform_mood{{"mood":"Vulnerable"}}
+      title: Vulnerable 
+    - payload: /inform_mood{{"mood":"Upset"}}
+      title: Upset 😥
+    - payload: /inform_mood{{"mood":"Alone"}}
+      title: Alone 😔
+    - payload: /inform_mood{{"mood":"Low"}}
+      title: Low
+    - payload: /inform_mood{{"mood":"Confused"}}
+      title: Confused 🤔
+    - payload: /inform_mood{{"mood":"Anxious"}}
+      title: Anxious 😰
+    - payload: /inform_mood{{"mood":"Overwhelmed"}}
+      title: Overwhelmed
+    - payload: /inform_mood{{"mood":"Stressed"}}
+      title: Stressed 😞
+    - payload: /inform_mood{{"mood":"Depressed"}}
+      title: Depressed
+    - payload: "Maybe later"
+      title: Maybe later
+    text: What does your current mood look like?
+
+  utter_ask_mood_intense:
+  - buttons:
+    - payload: "High"
+      title: High
+    - payload: "Moderate"
+      title: Moderate
+    - payload: "Low"
+      title: Low
+    text: How intense is the feeling?
+
+  utter_ask_mood_reason:
+  - buttons:
+    - payload: "Work"
+      title: Work
+    - payload: "Relationships"
+      title: Relationships
+    - payload: "Family related reasons"
+      title: Family related reasons
+    - payload: "Don't know"
+      title: Don't know
+    text: Do you know why you are struggling with that?
+  
+  utter_ask_self_harm:
+  - buttons:
+    - payload: /affirm
+      title: Yes
+    - payload: /deny
+      title: No
+    text: Have you had any self harm thoughts in the past few days?
+
+  utter_ask_plan_day:
+  - buttons:
+    - payload: /affirm
+      title: Yes
+    - payload: /deny
+      title: Not now
+    text: Do you want me to plan your day? 📝
+  
+  utter_ask_take_k10:
+  - buttons:
+    - payload: /affirm
+      title: Yes
+    - payload: /deny
+      title: Maybe later
+    text: Would you like to take a quick test (10 multiple choice questions) that helps determine the likeliness of having a mental disorder?
+
+  utter_ask_task1:
+  - text: "Great, Let me know what's your plan for today? "
+  
+  utter_slots:
+  - text: Your name is {name}, you are feeling {mood}
+
+  utter_ask_age:
+  - text: I would like to know about you {name}. What is your age?
+  
+  utter_ask_feel:
+  - buttons:
+    - payload: angry
+      title: Angry
+    - payload: calm
+      title: Calm
+    - payload: nervous
+      title: Nervous
+    text: Okay! How are you feeling now?
+  
+  utter_ask_q01:
+  - buttons:
+    - payload: '1'
+      title: None of the time
+    - payload: '2'
+      title: A little of the time
+    - payload: '3'
+      title: Some of the time
+    - payload: '4'
+      title: Most of the time
+    - payload: '5'
+      title: All the time
+    text: During the last 30 days, about how often did you feel tired out for no good reason?
+  utter_ask_q02:
+  - buttons:
+    - payload: '1'
+      title: None of the time
+    - payload: '2'
+      title: A little of the time
+    - payload: '3'
+      title: Some of the time
+    - payload: '4'
+      title: Most of the time
+    - payload: '5'
+      title: All the time
+    text: Okay. During the last 30 days, about how often did you feel nervous?
+  utter_ask_q03:
+  - buttons:
+    - payload: '1'
+      title: None of the time
+    - payload: '2'
+      title: A little of the time
+    - payload: '3'
+      title: Some of the time
+    - payload: '4'
+      title: Most of the time
+    - payload: '5'
+      title: All the time
+    text: Okay. During the last 30 days, about how often did you feel so nervous that nothing could calm you down?
+  utter_ask_q04:
+  - buttons:
+    - payload: '1'
+      title: None of the time
+    - payload: '2'
+      title: A little of the time
+    - payload: '3'
+      title: Some of the time
+    - payload: '4'
+      title: Most of the time
+    - payload: '5'
+      title: All the time
+    text: During the last 30 days, about how often did you feel hopeless?
+  utter_ask_q05:
+  - buttons:
+    - payload: '1'
+      title: None of the time
+    - payload: '2'
+      title: A little of the time
+    - payload: '3'
+      title: Some of the time
+    - payload: '4'
+      title: Most of the time
+    - payload: '5'
+      title: All the time
+    text: During the last 30 days, about how often did you feel restless or fidgety?
+  utter_ask_q06:
+  - buttons:
+    - payload: '1'
+      title: None of the time
+    - payload: '2'
+      title: A little of the time
+    - payload: '3'
+      title: Some of the time
+    - payload: '4'
+      title: Most of the time
+    - payload: '5'
+      title: All the time
+    text: During the last 30 days, about how often did you feel so restless you could not sit still?
+  utter_ask_q07:
+  - buttons:
+    - payload: '1'
+      title: None of the time
+    - payload: '2'
+      title: A little of the time
+    - payload: '3'
+      title: Some of the time
+    - payload: '4'
+      title: Most of the time
+    - payload: '5'
+      title: All the time
+    text: During the last 30 days, about how often did you feel depressed?
+  utter_ask_q08:
+  - buttons:
+    - payload: '1'
+      title: None of the time
+    - payload: '2'
+      title: A little of the time
+    - payload: '3'
+      title: Some of the time
+    - payload: '4'
+      title: Most of the time
+    - payload: '5'
+      title: All the time
+    text: During the last 30 days, about how often did you feel that everything was an effort?
+  utter_ask_q09:
+  - buttons:
+    - payload: '1'
+      title: None of the time
+    - payload: '2'
+      title: A little of the time
+    - payload: '3'
+      title: Some of the time
+    - payload: '4'
+      title: Most of the time
+    - payload: '5'
+      title: All the time
+    text: During the last 30 days, about how often did you feel so sad that nothing could cheer you up?
+  utter_ask_q10:
+  - buttons:
+    - payload: '1'
+      title: None of the time
+    - payload: '2'
+      title: A little of the time
+    - payload: '3'
+      title: Some of the time
+    - payload: '4'
+      title: Most of the time
+    - payload: '5'
+      title: All the time
+    text: During the last 30 days, about how often did you feel worthless?
+
+forms:
+  init_form:
+    name:
+    - type: from_text
+    name_bot:
+    - type: from_text
+    bot_name:
+    - type: from_text
+    age:
+    - type: from_text
+    feel:
+    - type: from_text
+
+  main_form:
+    sleep_hours:
+    - type: from_text
+    blood_test:
+    - type: from_text
+    mood:
+    - type: from_text
+    mood_intense:
+    - type: from_text
+    mood_reason:
+    - type: from_text
+    self_harm:
+    - type: from_text
+    # take_k10:
+    # - type: from_text
+
+  k10_form:
+    q01:
+    - type: from_text
+    q02:
+    - type: from_text
+    q03:
+    - type: from_text
+    q04:
+    - type: from_text
+    q05:
+    - type: from_text
+    q06:
+    - type: from_text
+    q07:
+    - type: from_text
+    q08:
+    - type: from_text
+    q09:
+    - type: from_text
+    q10:
+    - type: from_text
+
+actions:
+  - validate_init_form
+  - validate_main_form
+  - action_submit_k10
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
