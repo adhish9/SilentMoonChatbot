@@ -1,0 +1,9 @@
+,GAD xl sheet,GAD form,2021-10-14 17:07:34.458820
+,GAD xl sheet,GAD form,GAD score results,2021-10-14 17:08:53.849642
+faty,5.30 meeting with subodh,6.45 training,8.45 dinner,10.30 skin care,11 pm sleep,2021-11-01 16:57:52.017649
+faty,5.30 meeting with subodh,6.45 training,8.45 dinner,10.30 skin care,11 pm sleep,starbucks,2021-11-01 16:59:43.109827
+ad,cards,carousal,2021-11-08 17:39:45.265810
+ad,cards,carousal,no,2021-11-08 17:41:10.252779
+ad,carousel,save  convo,avoid replies when buttons,2021-11-09 16:42:58.609396
+ad,carousal,remove brs,2021-11-10 14:33:40.568135
+ ,look for papers,2021-11-10 15:32:31.315695

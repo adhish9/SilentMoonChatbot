@@ -1,5 +1,70 @@
 version: "2.0"
 
+
+# #11/10/21
+# stories:
+# - story: init and main form 
+#   steps:
+#   - intent: greet
+#   - action: init_form
+#   - action: main_form
+#   - action: k10_form
+#   - action: gad_form
+#   - action: planday_form
+
+# #11/8/21
+# stories:
+# - story: init and main form 
+#   steps:
+#   - intent: greet
+#   - action: init_form
+#   - action: main_form
+#   - action: utter_ask_take_k10
+#   - checkpoint: check_k10_test
+
+# - story: k10 test form -> plan day
+#   steps: 
+#   - checkpoint: check_k10_test
+#   - intent: affirm 
+#   - action: k10_form
+#   - action: action_submit_k10
+#   - action: gad_form
+#   - action: planday_form
+
+# - story: skip k10 test form ->  plan day
+#   steps: 
+#   - checkpoint: check_k10_test
+#   - intent: deny
+#   - action: gad_form
+#   - action: planday_form
+
+
+# #20/10/21
+# stories:
+# - story: init and main form 
+#   steps:
+#   - intent: greet
+#   - action: init_form
+#   - action: main_form
+#   - action: utter_ask_take_k10
+#   - checkpoint: check_k10_test
+
+# - story: k10 test form -> plan day
+#   steps: 
+#   - checkpoint: check_k10_test
+#   - intent: affirm 
+#   - action: k10_form
+#   - action: action_submit_k10
+#   - action: planday_form
+
+# - story: skip k10 test form ->  plan day
+#   steps: 
+#   - checkpoint: check_k10_test
+#   - intent: deny
+#   - action: planday_form
+
+
+
 # stories:
 #  - story: init and main form 
 #    steps:
@@ -9,18 +74,41 @@ version: "2.0"
 #    - action: k10_form
 #    - action: action_submit_k10
 
-stories:
-- story: init and main form 
-  steps:
-  - intent: greet
-  - action: init_form
-  - action: main_form
-  - action: utter_ask_take_k10
-  - checkpoint: check_k10_test
 
-- story: k10 test form
-  steps: 
-  - checkpoint: check_k10_test
-  - intent: affirm 
-  - action: k10_form
-  - action: action_submit_k10
+# stories:
+# - story: init and main form 
+#   steps:
+#   - intent: greet
+#   - action: init_form
+#   - action: main_form
+#   - action: utter_ask_take_k10
+#   - checkpoint: check_k10_test
+
+# - story: k10 test form
+#   steps: 
+#   - checkpoint: check_k10_test
+#   - intent: affirm 
+#   - action: k10_form
+#   - action: action_submit_k10
+#   - action: utter_ask_plan_day
+#   - checkpoint: check_plan_day
+
+# - story: skip k10 test form, plan day
+#   steps: 
+#   - checkpoint: check_k10_test
+#   - intent: /deny
+#   - action: utter_ask_plan_day
+#   - checkpoint: check_plan_day
+
+# - story: plan day
+#   steps:
+#   - checkpoint: check_plan_day
+#   - intent: /affirm
+#   - action: utter_ask_task1
+#   - action: utter_happy
+
+# - story: skip plan day
+#   steps: 
+#   - checkpoint: check_plan_day
+#   - intent: deny
+#   - action: utter_happy

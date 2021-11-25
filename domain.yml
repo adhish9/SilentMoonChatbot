@@ -7,6 +7,9 @@ intents:
   - deny
   - mood_great
   - mood_unhappy
+  - tasks
+  - video
+  - carousel
 
 entities:
 - name
@@ -66,7 +69,17 @@ slots:
     initial_value: null
     auto_fill: true
     influence_conversation: true
+  if_helpful:
+    type: rasa.shared.core.slots.TextSlot
+    initial_value: null
+    auto_fill: true
+    influence_conversation: true
   take_k10:
+    type: rasa.shared.core.slots.TextSlot
+    initial_value: null
+    auto_fill: true
+    influence_conversation: true
+  take_gad:
     type: rasa.shared.core.slots.TextSlot
     initial_value: null
     auto_fill: true
@@ -131,11 +144,64 @@ slots:
     initial_value: null
     auto_fill: true
     influence_conversation: true
+  gq1:
+    type: rasa.shared.core.slots.TextSlot
+    initial_value: null
+    auto_fill: true
+    influence_conversation: true
+  gq2:
+    type: rasa.shared.core.slots.TextSlot
+    initial_value: null
+    auto_fill: true
+    influence_conversation: true
+  gq3:
+    type: rasa.shared.core.slots.TextSlot
+    initial_value: null
+    auto_fill: true
+    influence_conversation: true
+  gq4:
+    type: rasa.shared.core.slots.TextSlot
+    initial_value: null
+    auto_fill: true
+    influence_conversation: true
+  gq5:
+    type: rasa.shared.core.slots.TextSlot
+    initial_value: null
+    auto_fill: true
+    influence_conversation: true
+  gq6:
+    type: rasa.shared.core.slots.TextSlot
+    initial_value: null
+    auto_fill: true
+    influence_conversation: true
+  gq7:
+    type: rasa.shared.core.slots.TextSlot
+    initial_value: null
+    auto_fill: true
+    influence_conversation: true
+  plan_day:
+    type: rasa.shared.core.slots.TextSlot
+    initial_value: null
+    auto_fill: true
+    influence_conversation: true
+  task:
+    type: rasa.shared.core.slots.TextSlot
+    initial_value: null
+    auto_fill: true
+    influence_conversation: true
+  more_task:
+    type: rasa.shared.core.slots.TextSlot
+    initial_value: null
+    auto_fill: true
+    influence_conversation: true
 
 responses:
   utter_greet:
   - text: "Hey! How are you?"
 
+  utter_show_video:
+  - text: '<iframe width="230" height="170" src="https://www.youtube.com/embed/ZhRo3gfLk90" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
+  
   utter_cheer_up:
   - text: "Here is something to cheer you up:"
     image: "https://i.imgur.com/nGF1K8f.jpg"
@@ -195,6 +261,8 @@ responses:
       title: In the last six months
     - payload: /inform_blood_test{{"blood_test":"In the last year"}}
       title: In the last year
+    - payload: Not Sure
+      title: Not Sure 🤔
     text: When was the last time you got a blood test done?
   
   utter_ask_mood:
@@ -209,26 +277,26 @@ responses:
       title: Content 😌
     - payload: "Loved"
       title: Loved 🥰
-    - payload: /inform_mood{{"mood":"Vulnerable"}}
+    - payload: "Vulnerable"
       title: Vulnerable 
-    - payload: /inform_mood{{"mood":"Upset"}}
+    - payload: "Upset"
       title: Upset 😥
-    - payload: /inform_mood{{"mood":"Alone"}}
+    - payload: "Alone"
       title: Alone 😔
     - payload: /inform_mood{{"mood":"Low"}}
       title: Low
-    - payload: /inform_mood{{"mood":"Confused"}}
+    - payload: "Confused"
       title: Confused 🤔
-    - payload: /inform_mood{{"mood":"Anxious"}}
+    - payload: "Anxious"
       title: Anxious 😰
-    - payload: /inform_mood{{"mood":"Overwhelmed"}}
+    - payload: "Overwhelmed"
       title: Overwhelmed
-    - payload: /inform_mood{{"mood":"Stressed"}}
+    - payload: "Stressed"
       title: Stressed 😞
-    - payload: /inform_mood{{"mood":"Depressed"}}
+    - payload: "Depressed"
       title: Depressed
-    - payload: "Maybe later"
-      title: Maybe later
+    - payload: "Not sure"
+      title: Not Sure
     text: What does your current mood look like?
 
   utter_ask_mood_intense:
@@ -259,7 +327,15 @@ responses:
       title: Yes
     - payload: /deny
       title: No
-    text: Have you had any self harm thoughts in the past few days?
+    text: Have you had any thoughts of self harm in the past few days?
+  
+  utter_ask_if_helpful:
+  - buttons:
+    - payload: /affirm
+      title: Yes
+    - payload: /deny
+      title: No
+    text: Was that helpful?
 
   utter_ask_plan_day:
   - buttons:
@@ -275,10 +351,26 @@ responses:
       title: Yes
     - payload: /deny
       title: Maybe later
-    text: Would you like to take a quick test (10 multiple choice questions) that helps determine the likeliness of having a mental disorder?
+    text: "Would you like to take a quick test that helps determine the likeliness of having a mental disorder?\n \n(Kessler Psychological Distress Scale (K10) - 10 multiple choice questions)"
 
-  utter_ask_task1:
-  - text: "Great, Let me know what's your plan for today? "
+  utter_ask_take_gad:
+  - buttons:
+    - payload: /affirm
+      title: Yes
+    - payload: /deny
+      title: Maybe later
+    text: "Would you like to take a quick test that is used as a screening tool and severity measure for generalised anxiety disorder?\n \n(Generalised Anxiety Disorder Assessment (GAD-7) - 7 multiple choice questions)"
+
+  utter_ask_task:
+  - text: "Enter a task."
+
+  utter_ask_more_task:
+  - buttons:
+    - payload: /affirm
+      title: Yes
+    - payload: /deny
+      title: "No, that's it for today."
+    text: "Would you like to add another task?"
   
   utter_slots:
   - text: Your name is {name}, you are feeling {mood}
@@ -308,7 +400,7 @@ responses:
       title: Most of the time
     - payload: '5'
       title: All the time
-    text: During the last 30 days, about how often did you feel tired out for no good reason?
+    text: "[1/10] During the last 30 days, about how often did you feel tired out for no good reason?"
   utter_ask_q02:
   - buttons:
     - payload: '1'
@@ -321,7 +413,8 @@ responses:
       title: Most of the time
     - payload: '5'
       title: All the time
-    text: Okay. During the last 30 days, about how often did you feel nervous?
+    text: "Okay. \n
+          [2/10] During the last 30 days, about how often did you feel nervous?"
   utter_ask_q03:
   - buttons:
     - payload: '1'
@@ -334,7 +427,7 @@ responses:
       title: Most of the time
     - payload: '5'
       title: All the time
-    text: Okay. During the last 30 days, about how often did you feel so nervous that nothing could calm you down?
+    text: "[3/10] During the last 30 days, about how often did you feel so nervous that nothing could calm you down?"
   utter_ask_q04:
   - buttons:
     - payload: '1'
@@ -347,7 +440,7 @@ responses:
       title: Most of the time
     - payload: '5'
       title: All the time
-    text: During the last 30 days, about how often did you feel hopeless?
+    text: "[4/10] During the last 30 days, about how often did you feel hopeless?"
   utter_ask_q05:
   - buttons:
     - payload: '1'
@@ -360,7 +453,7 @@ responses:
       title: Most of the time
     - payload: '5'
       title: All the time
-    text: During the last 30 days, about how often did you feel restless or fidgety?
+    text: "[5/10] During the last 30 days, about how often did you feel restless or fidgety?"
   utter_ask_q06:
   - buttons:
     - payload: '1'
@@ -373,7 +466,7 @@ responses:
       title: Most of the time
     - payload: '5'
       title: All the time
-    text: During the last 30 days, about how often did you feel so restless you could not sit still?
+    text: "[6/10] During the last 30 days, about how often did you feel so restless you could not sit still?"
   utter_ask_q07:
   - buttons:
     - payload: '1'
@@ -386,7 +479,7 @@ responses:
       title: Most of the time
     - payload: '5'
       title: All the time
-    text: During the last 30 days, about how often did you feel depressed?
+    text: "[7/10] During the last 30 days, about how often did you feel depressed?"
   utter_ask_q08:
   - buttons:
     - payload: '1'
@@ -399,7 +492,7 @@ responses:
       title: Most of the time
     - payload: '5'
       title: All the time
-    text: During the last 30 days, about how often did you feel that everything was an effort?
+    text: "[8/10] During the last 30 days, about how often did you feel that everything was an effort?"
   utter_ask_q09:
   - buttons:
     - payload: '1'
@@ -412,7 +505,7 @@ responses:
       title: Most of the time
     - payload: '5'
       title: All the time
-    text: During the last 30 days, about how often did you feel so sad that nothing could cheer you up?
+    text: "[9/10] During the last 30 days, about how often did you feel so sad that nothing could cheer you up?"
   utter_ask_q10:
   - buttons:
     - payload: '1'
@@ -425,7 +518,93 @@ responses:
       title: Most of the time
     - payload: '5'
       title: All the time
-    text: During the last 30 days, about how often did you feel worthless?
+    text: "[10/10] During the last 30 days, about how often did you feel worthless?"
+
+  utter_ask_gq1:
+  - buttons:
+    - payload: '0'
+      title: Not at all 
+    - payload: '1'
+      title: Several days
+    - payload: '2'
+      title: More than half the days
+    - payload: '3'
+      title: Nearly everyday
+    text: "[1/7] Feeling nervous, anxious or on edge?"
+
+  utter_ask_gq2:
+  - buttons:
+    - payload: '0'
+      title: Not at all 
+    - payload: '1'
+      title: Several days
+    - payload: '2'
+      title: More than half the days
+    - payload: '3'
+      title: Nearly everyday
+    text: "[2/7] Not being able to stop or control worrying?"
+
+  utter_ask_gq3:
+  - buttons:
+    - payload: '0'
+      title: Not at all 
+    - payload: '1'
+      title: Several days
+    - payload: '2'
+      title: More than half the days
+    - payload: '3'
+      title: Nearly everyday
+    text: "[3/7] Worrying too much about different things?"
+
+  utter_ask_gq4:
+  - buttons:
+    - payload: '0'
+      title: Not at all 
+    - payload: '1'
+      title: Several days
+    - payload: '2'
+      title: More than half the days
+    - payload: '3'
+      title: Nearly everyday
+    text: "[4/7] Trouble relaxing?"
+
+  utter_ask_gq5:
+  - buttons:
+    - payload: '0'
+      title: Not at all 
+    - payload: '1'
+      title: Several days
+    - payload: '2'
+      title: More than half the days
+    - payload: '3'
+      title: Nearly everyday
+    text: "[5/7] Being so restless that it is hard to sit still?"
+
+  utter_ask_gq6:
+  - buttons:
+    - payload: '0'
+      title: Not at all 
+    - payload: '1'
+      title: Several days
+    - payload: '2'
+      title: More than half the days
+    - payload: '3'
+      title: Nearly everyday
+    text: "[6/7] Becoming easily annoyed or irritable?"
+
+  utter_ask_gq7:
+  - buttons:
+    - payload: '0'
+      title: Not at all 
+    - payload: '1'
+      title: Several days
+    - payload: '2'
+      title: More than half the days
+    - payload: '3'
+      title: Nearly everyday
+    text: "[7/7] Feeling afraid as if something awful might happen?"
+
+  
 
 forms:
   init_form:
@@ -437,8 +616,8 @@ forms:
     - type: from_text
     age:
     - type: from_text
-    feel:
-    - type: from_text
+    #feel:
+    #- type: from_text
 
   main_form:
     sleep_hours:
@@ -453,10 +632,12 @@ forms:
     - type: from_text
     self_harm:
     - type: from_text
-    # take_k10:
-    # - type: from_text
+    if_helpful:
+    - type: from_text
 
   k10_form:
+    take_k10:
+    - type: from_text
     q01:
     - type: from_text
     q02:
@@ -477,11 +658,46 @@ forms:
     - type: from_text
     q10:
     - type: from_text
+  
+  gad_form:
+    take_gad:
+    - type: from_text
+    gq1:
+    - type: from_text
+    gq2:
+    - type: from_text
+    gq3:
+    - type: from_text
+    gq4:
+    - type: from_text
+    gq5:
+    - type: from_text
+    gq6:
+    - type: from_text
+    gq7:
+    - type: from_text
+
+  planday_form:
+    plan_day:
+    - type: from_text
+    task:
+    - type: from_text
+    more_task:
+    - type: from_text
 
 actions:
   - validate_init_form
   - validate_main_form
-  - action_submit_k10
+  - validate_k10_form
+  - validate_gad_form
+  - validate_planday_form
+  - action_carousel
+  - action_reset_all_slots
+  - action_reset_planday
+  - action_reset_init
+  - action_reset_main
+  - action_reset_k10
+  - action_reset_gad
 
 session_config:
   session_expiration_time: 60

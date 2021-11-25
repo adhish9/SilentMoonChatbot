@@ -1,6 +1,37 @@
 version: "2.0"
 
 nlu:
+- intent: carousel
+  examples: |
+    - carousel
+    - carousels
+    - show carousel
+    - activity
+    - activities
+    - activity list
+    - show activity options
+    - exercise
+    - exercises 
+    - exercise list
+    - show exercise options
+    
+
+- intent: video
+  examples: |
+    - video
+    - videos
+    - show videos
+    - show me something
+    - play video
+
+- intent: tasks
+  examples: |
+    - tasks
+    - todo list
+    - planner
+    - day plan
+    - plan day 
+
 - intent: greet
   examples: |
     - hey
