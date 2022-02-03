@@ -14,7 +14,15 @@ nlu:
     - exercises 
     - exercise list
     - show exercise options
-    
+
+- intent: quotes
+  examples: |
+    - qod
+    - quotes
+    - quote of the day
+    - totd
+    - thoughts
+    - thought of the day 
 
 - intent: video
   examples: |
@@ -23,6 +31,21 @@ nlu:
     - show videos
     - show me something
     - play video
+  
+- intent: spotify
+  examples: |
+    - spotify
+    - playlist
+    - spotify playlist 
+    - spotify mood booster
+  
+- intent: image
+  examples: |
+    - image
+    - images
+    - show images
+    - show me something
+    - display image
 
 - intent: tasks
   examples: |
@@ -47,6 +70,8 @@ nlu:
     - goodmorning
     - goodevening
     - good afternoon
+    - yo
+    - yooo
 
 - intent: goodbye
   examples: |

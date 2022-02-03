@@ -1,6 +1,12 @@
 version: "2.0"
 
 rules:
+  - rule: welcome user
+    conversation_start: true  # this rule only applies at the beginning of a conversation
+    steps:
+      - intent: greet
+      - action: utter_welcome
+  
   - rule: activate all forms
     steps:
       - intent: greet
@@ -10,13 +16,16 @@ rules:
       - action: k10_form
       - action: gad_form
       - action: planday_form
+      - action: utter_menu
+      - action: action_save_chat
       - action: action_carousel
 
-  - rule: activate main/daily form
+  - rule: activate init form
     steps:
       - intent: init_form
       - action: action_reset_init
       - action: init_form
+      - action: action_save_chat
       - action: action_carousel
 
   - rule: activate main/daily form
@@ -24,6 +33,7 @@ rules:
       - intent: main_form
       - action: action_reset_main
       - action: main_form
+      - action: action_save_chat
       - action: action_carousel
 
   - rule: activate k10 test
@@ -31,6 +41,7 @@ rules:
       - intent: k10_form
       - action: action_reset_k10
       - action: k10_form
+      - action: action_save_chat
       - action: action_carousel
 
   - rule: activate gad test
@@ -38,20 +49,37 @@ rules:
       - intent: gad_form
       - action: action_reset_gad
       - action: gad_form
+      - action: action_save_chat
       - action: action_carousel
-
 
   - rule: activate tasks
     steps: 
       - intent: tasks
       - action: action_reset_planday
       - action: planday_form
+      - action: action_save_chat
+      - action: action_carousel
+  
+  - rule: activate quotes
+    steps: 
+      - intent: quotes
+      - action: action_qod
       - action: action_carousel
 
   - rule: show video 
     steps:
       - intent: video
       - action: utter_show_video
+
+  - rule: show image 
+    steps:
+      - intent: image
+      - action: utter_show_image
+  
+  - rule: show spotify
+    steps:
+      - intent: spotify
+      - action: action_spotify
 
   - rule: show carousel
     steps: 
