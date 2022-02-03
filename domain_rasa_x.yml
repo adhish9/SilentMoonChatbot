@@ -29,13 +29,9 @@ intents:
     use_entities: true
 - video:
     use_entities: true
-- image:
-    use_entities: true
 - carousel:
     use_entities: true
-- quotes:
-    use_entities: true
-- spotify:
+- bot_challenge:
     use_entities: true
 entities:
 - name
@@ -100,11 +96,6 @@ slots:
     auto_fill: true
     influence_conversation: true
   take_k10:
-    type: rasa.shared.core.slots.TextSlot
-    initial_value: null
-    auto_fill: true
-    influence_conversation: true
-  ask_gad:
     type: rasa.shared.core.slots.TextSlot
     initial_value: null
     auto_fill: true
@@ -219,37 +210,7 @@ slots:
     initial_value: null
     auto_fill: true
     influence_conversation: true
-  tasks:
-    type: rasa.shared.core.slots.TextSlot
-    initial_value: null
-    auto_fill: true
-    influence_conversation: true
   more_task:
-    type: rasa.shared.core.slots.TextSlot
-    initial_value: null
-    auto_fill: true
-    influence_conversation: true
-  result_k10:
-    type: rasa.shared.core.slots.TextSlot
-    initial_value: null
-    auto_fill: true
-    influence_conversation: true
-  result_gad:
-    type: rasa.shared.core.slots.TextSlot
-    initial_value: null
-    auto_fill: true
-    influence_conversation: true
-  email_result_k10:
-    type: rasa.shared.core.slots.TextSlot
-    initial_value: null
-    auto_fill: true
-    influence_conversation: true
-  email_result_gad:
-    type: rasa.shared.core.slots.TextSlot
-    initial_value: null
-    auto_fill: true
-    influence_conversation: true
-  email:
     type: rasa.shared.core.slots.TextSlot
     initial_value: null
     auto_fill: true
@@ -257,23 +218,13 @@ slots:
 responses:
   utter_greet:
   - text: Hey! How are you?
-  utter_welcome:
-  - text: Hello there! Welcome to Silent Moon!
   utter_show_video:
-  - text: Video test!
-    attachment: {"type":"video", "payload":{ "src": "https://www.youtube.com/embed/JXrEsf6sP4s"}}
-  utter_show_image:
-  - text: Image test!
-    attachment: {"type":"image", "payload":{ "src": "https://images.ctfassets.net/cnu0m8re1exe/6Sadc00A1SowpaBypfEj6F/9fd01dc334a320ff01c46bd44b66348e/shutterstock_350316134-1024x1016.jpg"}}  
-  utter_video:
   - text: <iframe width="230" height="170" src="https://www.youtube.com/embed/ZhRo3gfLk90" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   utter_cheer_up:
   - image: https://i.imgur.com/nGF1K8f.jpg
     text: 'Here is something to cheer you up:'
   utter_did_that_help:
   - text: Did that help you?
-  utter_menu:
-  - text: Use the following menu to choose an activity.
   utter_happy:
   - text: Great, carry on!
   utter_goodbye:
@@ -292,34 +243,18 @@ responses:
   utter_ask_bot_name:
   - text: What would you like to name me?
   utter_nice_name:
-  - text: Nice name, {name}!
+  - text: Nice name {name}!
   utter_thank_name:
-  - text: 🤖 Thank you for giving me an identity, {name}! I'm excited to get to know you! 😃 Let's get started.
-  utter_ask_email_result_k10:
-  - buttons:
-    - payload: /affirm
-      title: Yes
-    - payload: /deny
-      title: No
-    text: Would you like receive an email to get more information on the K10 test and to understand what your test score means?
-  utter_ask_email_result_gad:
-  - buttons:
-    - payload: /affirm
-      title: Yes
-    - payload: /deny
-      title: No
-    text: Would you like to understand what your test score means and receive more information on the GAD7 test via email?  #Would you like me to share your GAD-7 test results via email?
-  utter_ask_email:
-  - text: Please enter your email address. 
+  - text: 🤖 Thank you for giving me an identity, {name}! I'm excited to get to know you! 😃
   utter_ask_sleep_hours:
   - buttons:
-    - payload: "<5"
+    - payload: /inform_sleep{{"sleep_hours":"<5"}}
       title: Less than 5 hours
-    - payload: "5-8"
+    - payload: /inform_sleep{{"sleep_hours":"5-8"}}
       title: 5-8 Hours
-    - payload: "8-10"
+    - payload: /inform_sleep{{"sleep_hours":"8-10"}}
       title: 8-10 hours
-    - payload: ">10"
+    - payload: /inform_sleep{{"sleep_hours":">10"}}
       title: More than 10 hours
     text: For how many hours have you been sleeping per day for the past few days?
   utter_ask_blood_test:
@@ -417,6 +352,8 @@ responses:
       title: Maybe later
     text: |-
       Would you like to take a quick test that helps determine the likeliness of having a mental disorder?
+       
+      (Kessler Psychological Distress Scale (K10) - 10 multiple choice questions)
   utter_ask_take_gad:
   - buttons:
     - payload: /affirm
@@ -424,7 +361,9 @@ responses:
     - payload: /deny
       title: Maybe later
     text: |-
-      Would you like to take a quick test that is used as a screening tool and severity measure for generalised anxiety disorder? 
+      Would you like to take a quick test that is used as a screening tool and severity measure for generalised anxiety disorder?
+       
+      (Generalised Anxiety Disorder Assessment (GAD-7) - 7 multiple choice questions)
   utter_ask_task:
   - text: Enter a task.
   utter_ask_more_task:
@@ -437,7 +376,7 @@ responses:
   utter_slots:
   - text: Your name is {name}, you are feeling {mood}
   utter_ask_age:
-  - text: What is your age?
+  - text: I would like to know about you {name}. What is your age?
   utter_ask_feel:
   - buttons:
     - payload: angry
@@ -474,7 +413,7 @@ responses:
       title: All the time
     text: |-
       Okay. 
-      [2/10] During the last 30 days, about how often did you feel nervous?
+       [2/10] During the last 30 days, about how often did you feel nervous?
   utter_ask_q03:
   - buttons:
     - payload: '1'
@@ -656,7 +595,6 @@ responses:
     - payload: '3'
       title: Nearly everyday
     text: '[7/7] Feeling afraid as if something awful might happen?'
-  
 actions:
 - validate_init_form
 - validate_main_form
@@ -664,15 +602,12 @@ actions:
 - validate_gad_form
 - validate_planday_form
 - action_carousel
-- action_qod
-- action_spotify
 - action_reset_all_slots
 - action_reset_planday
 - action_reset_init
 - action_reset_main
 - action_reset_k10
 - action_reset_gad
-- action_save_chat
 forms:
   init_form:
     required_slots:
@@ -726,10 +661,6 @@ forms:
       - type: from_text
       q10:
       - type: from_text
-      email_result_k10:
-      - type: from_text
-      email:
-      - type: from_text
   gad_form:
     required_slots:
       take_gad:
@@ -747,10 +678,6 @@ forms:
       gq6:
       - type: from_text
       gq7:
-      - type: from_text
-      email_result_gad:
-      - type: from_text
-      email:
       - type: from_text
   planday_form:
     required_slots:
