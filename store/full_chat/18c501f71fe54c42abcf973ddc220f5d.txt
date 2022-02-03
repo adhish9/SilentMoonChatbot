@@ -1,0 +1,239 @@
+2021-12-21 18:22:04.586109,18c501f71fe54c42abcf973ddc220f5d
+User: /greet
+Bot: Hello there! Welcome to Silent Moon!
+User: /carousel
+Bot: None
+User: /gad_form
+Bot: Generalised Anxiety Disorder Assessment (GAD-7) - 7 multiple choice questions.
+Bot: Over the last 2 weeks, how often have you been bothered by any of the following problems?
+Bot: [1/7] Feeling nervous, anxious or on edge?
+User: 1
+Bot: [2/7] Not being able to stop or control worrying?
+User: 2
+Bot: [3/7] Worrying too much about different things?
+User: 1
+Bot: [4/7] Trouble relaxing?
+User: 2
+Bot: [5/7] Being so restless that it is hard to sit still?
+User: 1
+Bot: [6/7] Becoming easily annoyed or irritable?
+User: 3
+Bot: [7/7] Feeling afraid as if something awful might happen?
+User: 2
+Bot: Thanks guest, your answers have been recorded!
+Bot: Your Generalised Anxiety Disorder Questionnaire 
+ 
+ (GAD-7) Total is: 12/21
+ 
+You are likely to have moderate anxiety. 
+ 
+
+Bot: Would you like to understand what your test score means and receive more information on the GAD7 test via email?
+User: /affirm
+Bot: Please enter your email address.
+User: fdsa
+Bot: Something went wrong, please try again.
+Bot: Please enter your email address.
+User: addsada
+Bot: Something went wrong, please try again.
+Bot: Please enter your email address.
+User: adhish.deshpande@gmail.com
+Bot: Something went wrong, please try again.
+Bot: Please enter your email address.
+User: adhish.deshpande@gmail.com
+Bot: Something went wrong, please try again.
+Bot: Please enter your email address.
+User: dsad
+User: dffsdf
+User: dsadsfas
+Bot: Something went wrong, please try again.
+Bot: Please enter your email address.
+User: dfd
+Bot: Something went wrong, please try again.
+Bot: Please enter your email address.
+User: adhish.deshpande@gmail.com
+Bot: Thank you. We have sent you an email at adhish.deshpande@gmail.com with your test results and more information.
+
+User: /greet
+Bot: Hello there! Welcome to Silent Moon!
+User: /carousel
+Bot: None
+User: /gad_form
+Bot: Generalised Anxiety Disorder Assessment (GAD-7) - 7 multiple choice questions.
+Bot: Over the last 2 weeks, how often have you been bothered by any of the following problems?
+Bot: [1/7] Feeling nervous, anxious or on edge?
+User: 1
+Bot: [2/7] Not being able to stop or control worrying?
+User: 2
+Bot: [3/7] Worrying too much about different things?
+User: 1
+Bot: [4/7] Trouble relaxing?
+User: 2
+Bot: [5/7] Being so restless that it is hard to sit still?
+User: 1
+Bot: [6/7] Becoming easily annoyed or irritable?
+User: 3
+Bot: [7/7] Feeling afraid as if something awful might happen?
+User: 2
+Bot: Thanks guest, your answers have been recorded!
+Bot: Your Generalised Anxiety Disorder Questionnaire 
+ 
+ (GAD-7) Total is: 12/21
+ 
+You are likely to have moderate anxiety. 
+ 
+
+Bot: Would you like to understand what your test score means and receive more information on the GAD7 test via email?
+User: /affirm
+Bot: Please enter your email address.
+User: fdsa
+Bot: Something went wrong, please try again.
+Bot: Please enter your email address.
+User: addsada
+Bot: Something went wrong, please try again.
+Bot: Please enter your email address.
+User: adhish.deshpande@gmail.com
+Bot: Something went wrong, please try again.
+Bot: Please enter your email address.
+User: adhish.deshpande@gmail.com
+Bot: Something went wrong, please try again.
+Bot: Please enter your email address.
+User: dsad
+User: dffsdf
+User: dsadsfas
+Bot: Something went wrong, please try again.
+Bot: Please enter your email address.
+User: dfd
+Bot: Something went wrong, please try again.
+Bot: Please enter your email address.
+User: adhish.deshpande@gmail.com
+Bot: Thank you. We have sent you an email at adhish.deshpande@gmail.com with your test results and more information.
+Bot: None
+User: tasks
+Bot: Great, let me know what's your plan for today?
+Bot: Enter a task.
+User: dasda
+Bot: Tasks for today:
+✔️dasda
+Bot: Would you like to add another task?
+User: /affirm
+Bot: Enter a task.
+User: sdfgsdfs
+Bot: Tasks for today:
+✔️dasda
+✔️sdfgsdfs
+Bot: Would you like to add another task?
+User: /affirm
+Bot: Enter a task.
+User: asdasdad
+Bot: Tasks for today:
+✔️dasda
+✔️sdfgsdfs
+✔️asdasdad
+Bot: Would you like to add another task?
+User: /deny
+Bot: Tasks for today:
+✔️dasda
+✔️sdfgsdfs
+✔️asdasdad
+
+User: /greet
+Bot: Hello there! Welcome to Silent Moon!
+User: /carousel
+Bot: None
+User: /gad_form
+Bot: Generalised Anxiety Disorder Assessment (GAD-7) - 7 multiple choice questions.
+Bot: Over the last 2 weeks, how often have you been bothered by any of the following problems?
+Bot: [1/7] Feeling nervous, anxious or on edge?
+User: 1
+Bot: [2/7] Not being able to stop or control worrying?
+User: 2
+Bot: [3/7] Worrying too much about different things?
+User: 1
+Bot: [4/7] Trouble relaxing?
+User: 2
+Bot: [5/7] Being so restless that it is hard to sit still?
+User: 1
+Bot: [6/7] Becoming easily annoyed or irritable?
+User: 3
+Bot: [7/7] Feeling afraid as if something awful might happen?
+User: 2
+Bot: Thanks guest, your answers have been recorded!
+Bot: Your Generalised Anxiety Disorder Questionnaire 
+ 
+ (GAD-7) Total is: 12/21
+ 
+You are likely to have moderate anxiety. 
+ 
+
+Bot: Would you like to understand what your test score means and receive more information on the GAD7 test via email?
+User: /affirm
+Bot: Please enter your email address.
+User: fdsa
+Bot: Something went wrong, please try again.
+Bot: Please enter your email address.
+User: addsada
+Bot: Something went wrong, please try again.
+Bot: Please enter your email address.
+User: adhish.deshpande@gmail.com
+Bot: Something went wrong, please try again.
+Bot: Please enter your email address.
+User: adhish.deshpande@gmail.com
+Bot: Something went wrong, please try again.
+Bot: Please enter your email address.
+User: dsad
+User: dffsdf
+User: dsadsfas
+Bot: Something went wrong, please try again.
+Bot: Please enter your email address.
+User: dfd
+Bot: Something went wrong, please try again.
+Bot: Please enter your email address.
+User: adhish.deshpande@gmail.com
+Bot: Thank you. We have sent you an email at adhish.deshpande@gmail.com with your test results and more information.
+Bot: None
+User: tasks
+Bot: Great, let me know what's your plan for today?
+Bot: Enter a task.
+User: dasda
+Bot: Tasks for today:
+✔️dasda
+Bot: Would you like to add another task?
+User: /affirm
+Bot: Enter a task.
+User: sdfgsdfs
+Bot: Tasks for today:
+✔️dasda
+✔️sdfgsdfs
+Bot: Would you like to add another task?
+User: /affirm
+Bot: Enter a task.
+User: asdasdad
+Bot: Tasks for today:
+✔️dasda
+✔️sdfgsdfs
+✔️asdasdad
+Bot: Would you like to add another task?
+User: /deny
+Bot: Tasks for today:
+✔️dasda
+✔️sdfgsdfs
+✔️asdasdad
+Bot: None
+User: tasks
+Bot: Great, let me know what's your plan for today?
+Bot: Enter a task.
+User: tgg
+Bot: Tasks for today:
+✔️dasda
+✔️sdfgsdfs
+✔️asdasdad
+✔️tgg
+Bot: Would you like to add another task?
+User: /deny
+Bot: Tasks for today:
+✔️dasda
+✔️sdfgsdfs
+✔️asdasdad
+✔️tgg
+

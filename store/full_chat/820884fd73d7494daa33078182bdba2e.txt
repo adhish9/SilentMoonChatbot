@@ -1,0 +1,34 @@
+2021-12-21 18:33:07.357941,820884fd73d7494daa33078182bdba2e
+User: /greet
+Bot: Hello there! Welcome to Silent Moon!
+User: hi
+Bot: What should I address you as?
+User: add
+Bot: Nice name, add!
+Bot: Would you like to name me?
+User: /deny
+Bot: I'm excited to get to know you! Let's get started.
+Bot: What is your age?
+User: 25
+Bot: For how many hours have you been sleeping per day for the past few days?
+User: 8-10
+Bot: Sleeping helps us to recover from mental as well as physical exertion. 
+Sleep and health are strongly related - poor sleep can increase the risk of having poor health, and poor health can make it harder to sleep. Sleep disturbances can be one of the first signs of distress.
+Bot: When was the last time you got a blood test done?
+User: Not Sure
+Bot: What does your current mood look like?
+User: Anxious
+Bot: It can be difficult to identify our feelings, thank you for being aware.
+Bot: How intense is the feeling?
+User: Moderate
+Bot: Do you know why you are struggling with that?
+User: Don't know
+Bot: It is okay to not know why you may be experiencing certain emotions. Let us help you figure them out.
+Bot: Would you like to take a quick test that helps determine the likeliness of having a mental disorder?
+User: /deny
+Bot: Would you like to take a quick test that is used as a screening tool and severity measure for generalised anxiety disorder? 
+User: /deny
+Bot: Do you want me to plan your day? 📝
+User: /deny
+Bot: Alright. You can come back and plan your day by saying 'tasks', 'planner' or selecting 'To-do list' on the menu.
+

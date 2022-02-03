@@ -1,0 +1,62 @@
+2021-12-21 16:26:57.697166,4776b9a8bad3466fa50525a9c7292291
+User: /greet
+Bot: Hello there! Welcome to Silent Moon!
+User: hi
+Bot: What should I address you as?
+User: ad
+Bot: Nice name, ad!
+Bot: Would you like to name me?
+User: /deny
+Bot: I'm excited to get to know you! Let's get started.
+Bot: What is your age?
+User: 25
+Bot: For how many hours have you been sleeping per day for the past few days?
+User: 5-8
+Bot: Sleeping helps us to recover from mental as well as physical exertion. 
+Sleep and health are strongly related - poor sleep can increase the risk of having poor health, and poor health can make it harder to sleep. Sleep disturbances can be one of the first signs of distress.
+Bot: When was the last time you got a blood test done?
+User: Not Sure
+Bot: What does your current mood look like?
+User: Not sure
+Bot: No problem. 🙂
+Bot: It can be difficult to identify our feelings, thank you for being aware.
+Bot: Would you like to take a quick test that helps determine the likeliness of having a mental disorder? 
+(Kessler Psychological Distress Scale (K10) - 10 multiple choice questions)
+User: /deny
+Bot: Do you want me to plan your day? 📝
+User: /deny
+Bot: Alright.
+
+User: /greet
+Bot: Hello there! Welcome to Silent Moon!
+User: hi
+Bot: What should I address you as?
+User: ad
+Bot: Nice name, ad!
+Bot: Would you like to name me?
+User: /deny
+Bot: I'm excited to get to know you! Let's get started.
+Bot: What is your age?
+User: 25
+Bot: For how many hours have you been sleeping per day for the past few days?
+User: 5-8
+Bot: Sleeping helps us to recover from mental as well as physical exertion. 
+Sleep and health are strongly related - poor sleep can increase the risk of having poor health, and poor health can make it harder to sleep. Sleep disturbances can be one of the first signs of distress.
+Bot: When was the last time you got a blood test done?
+User: Not Sure
+Bot: What does your current mood look like?
+User: Not sure
+Bot: No problem. 🙂
+Bot: It can be difficult to identify our feelings, thank you for being aware.
+Bot: Would you like to take a quick test that helps determine the likeliness of having a mental disorder? 
+(Kessler Psychological Distress Scale (K10) - 10 multiple choice questions)
+User: /deny
+Bot: Do you want me to plan your day? 📝
+User: /deny
+Bot: Alright.
+Bot: None
+User: /k10_form
+Bot: Would you like to take a quick test that helps determine the likeliness of having a mental disorder? 
+(Kessler Psychological Distress Scale (K10) - 10 multiple choice questions)
+User: /deny
+

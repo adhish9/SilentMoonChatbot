@@ -1,0 +1,17 @@
+2021-12-06 23:24:17.496854,a975449f05924bbcb8dc69ffe0d7ce70
+User: /greet
+Bot: Hello there! Welcome to Silent Moon!
+User: /tasks
+Bot: Do you want me to plan your day? 📝
+User: /affirm
+Bot: Great, Let me know what's your plan for today?
+Bot: Enter a task.
+User: meet subodh
+Bot: Tasks for today:
+✔️meet subodh
+Bot: Would you like to add another task?
+User: /deny
+Bot: Tasks for today:
+✔️meet subodh
+Bot: Great, carry on!
+

@@ -1,0 +1,76 @@
+2021-12-13 16:25:30.330500,d82120bd7eb84dd286564d6d18146230
+User: /greet
+Bot: Hello there! Welcome to Silent Moon!
+User: hello
+Bot: What should I address you as?
+User: fatema
+Bot: Nice name, fatema!
+Bot: Would you like to name me?
+User: /affirm
+Bot: What would you like to name me?
+User: adhoosh
+Bot: 🤖 Thank you for giving me an identity, fatema! I'm excited to get to know you! 😃 Let's get started.
+Bot: What is your age?
+User: 16
+Bot: For how many hours have you been sleeping per day for the past few days?
+User: /inform_sleep{"sleep_hours":"<5"}
+Bot: When was the last time you got a blood test done?
+User: Not Sure
+Bot: What does your current mood look like?
+User: Excited
+Bot: 👍 Great!
+Bot: It can be difficult to identify our feelings, thank you for being aware.
+Bot: Would you like to take a quick test that helps determine the likeliness of having a mental disorder? 
+(Kessler Psychological Distress Scale (K10) - 10 multiple choice questions)
+User: /deny
+Bot: Do you want me to plan your day? 📝
+User: /affirm
+Bot: Great, Let me know what's your plan for today?
+Bot: Enter a task.
+User: go to class
+Bot: Tasks for today:
+✔️go to class
+Bot: Would you like to add another task?
+User: /affirm
+Bot: Enter a task.
+User: eat lunch
+Bot: Tasks for today:
+✔️go to class
+✔️eat lunch
+Bot: Would you like to add another task?
+User: /affirm
+Bot: Enter a task.
+User: do yoga
+Bot: Tasks for today:
+✔️go to class
+✔️eat lunch
+✔️do yoga
+Bot: Would you like to add another task?
+User: /affirm
+Bot: Enter a task.
+User: read a book
+Bot: Tasks for today:
+✔️go to class
+✔️eat lunch
+✔️do yoga
+✔️read a book
+Bot: Would you like to add another task?
+User: /affirm
+Bot: Enter a task.
+User: go to bed on time
+Bot: Tasks for today:
+✔️go to class
+✔️eat lunch
+✔️do yoga
+✔️read a book
+✔️go to bed on time
+Bot: Would you like to add another task?
+User: /deny
+Bot: Tasks for today:
+✔️go to class
+✔️eat lunch
+✔️do yoga
+✔️read a book
+✔️go to bed on time
+Bot: Great, carry on!
+

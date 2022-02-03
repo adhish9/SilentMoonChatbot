@@ -1,0 +1,370 @@
+2021-12-16 14:40:31.783937,8f9217322c80486fa0aacc1bfcef7881
+User: /greet
+Bot: Hello there! Welcome to Silent Moon!
+User: hi
+Bot: What should I address you as?
+User: ad
+Bot: Nice name, ad!
+Bot: Would you like to name me?
+User: /deny
+Bot: I'm excited to get to know you! Let's get started.
+Bot: What is your age?
+User: 253
+Bot: For how many hours have you been sleeping per day for the past few days?
+User: /inform_sleep{"sleep_hours":"5-8"}
+Bot: When was the last time you got a blood test done?
+User: Not Sure
+Bot: What does your current mood look like?
+User: Anxious
+Bot: It can be difficult to identify our feelings, thank you for being aware.
+Bot: How intense is the feeling?
+User: Low
+Bot: Do you know why you are struggling with that?
+User: Family related reasons
+Bot: Sometimes, personal relationships can be taxing and can even take a toll mentally. 
+It is important to be empathetic and compassionate towards other people in challenging situations.
+Bot: Would you like to take a quick test that helps determine the likeliness of having a mental disorder? 
+(Kessler Psychological Distress Scale (K10) - 10 multiple choice questions)
+User: /deny
+Bot: Would you like to take a quick test that is used as a screening tool and severity measure for generalised anxiety disorder? 
+(Generalised Anxiety Disorder Assessment (GAD-7) - 7 multiple choice questions)
+User: /affirm
+Bot: Over the last 2 weeks, how often have you been bothered by any of the following problems?
+Bot: [1/7] Feeling nervous, anxious or on edge?
+User: 0
+Bot: [2/7] Not being able to stop or control worrying?
+User: 0
+Bot: [3/7] Worrying too much about different things?
+User: 0
+Bot: [4/7] Trouble relaxing?
+User: 0
+Bot: [5/7] Being so restless that it is hard to sit still?
+User: 0
+Bot: [6/7] Becoming easily annoyed or irritable?
+User: 0
+Bot: [7/7] Feeling afraid as if something awful might happen?
+User: 0
+Bot: Thanks ad, your answers have been recorded!
+Bot: Your Generalised Anxiety Disorder Questionnaire 
+ 
+ (GAD-7) Total is: 0/21
+ 
+You are likely to be well. 
+ 
+
+Bot: If you wish to know more about the GAD-7 Test, follow the link: https://patient.info/doctor/generalised-anxiety-disorder-assessment-gad-7#ref-2
+Bot: Would you like me to share your results via email?
+User: /deny
+Bot: Please enter your email address.
+User: f
+Bot: Do you want me to plan your day? 📝
+User: /deny
+Bot: Great! Use the following menu to choose an activity.
+
+User: /greet
+Bot: Hello there! Welcome to Silent Moon!
+User: hi
+Bot: What should I address you as?
+User: ad
+Bot: Nice name, ad!
+Bot: Would you like to name me?
+User: /deny
+Bot: I'm excited to get to know you! Let's get started.
+Bot: What is your age?
+User: 253
+Bot: For how many hours have you been sleeping per day for the past few days?
+User: /inform_sleep{"sleep_hours":"5-8"}
+Bot: When was the last time you got a blood test done?
+User: Not Sure
+Bot: What does your current mood look like?
+User: Anxious
+Bot: It can be difficult to identify our feelings, thank you for being aware.
+Bot: How intense is the feeling?
+User: Low
+Bot: Do you know why you are struggling with that?
+User: Family related reasons
+Bot: Sometimes, personal relationships can be taxing and can even take a toll mentally. 
+It is important to be empathetic and compassionate towards other people in challenging situations.
+Bot: Would you like to take a quick test that helps determine the likeliness of having a mental disorder? 
+(Kessler Psychological Distress Scale (K10) - 10 multiple choice questions)
+User: /deny
+Bot: Would you like to take a quick test that is used as a screening tool and severity measure for generalised anxiety disorder? 
+(Generalised Anxiety Disorder Assessment (GAD-7) - 7 multiple choice questions)
+User: /affirm
+Bot: Over the last 2 weeks, how often have you been bothered by any of the following problems?
+Bot: [1/7] Feeling nervous, anxious or on edge?
+User: 0
+Bot: [2/7] Not being able to stop or control worrying?
+User: 0
+Bot: [3/7] Worrying too much about different things?
+User: 0
+Bot: [4/7] Trouble relaxing?
+User: 0
+Bot: [5/7] Being so restless that it is hard to sit still?
+User: 0
+Bot: [6/7] Becoming easily annoyed or irritable?
+User: 0
+Bot: [7/7] Feeling afraid as if something awful might happen?
+User: 0
+Bot: Thanks ad, your answers have been recorded!
+Bot: Your Generalised Anxiety Disorder Questionnaire 
+ 
+ (GAD-7) Total is: 0/21
+ 
+You are likely to be well. 
+ 
+
+Bot: If you wish to know more about the GAD-7 Test, follow the link: https://patient.info/doctor/generalised-anxiety-disorder-assessment-gad-7#ref-2
+Bot: Would you like me to share your results via email?
+User: /deny
+Bot: Please enter your email address.
+User: f
+Bot: Do you want me to plan your day? 📝
+User: /deny
+Bot: Great! Use the following menu to choose an activity.
+Bot: None
+User: /k10_form
+Bot: Thanks for providing the details. We have sent you a mail at f
+Bot: Would you like to take a quick test that helps determine the likeliness of having a mental disorder? 
+(Kessler Psychological Distress Scale (K10) - 10 multiple choice questions)
+User: /deny
+
+User: /greet
+Bot: Hello there! Welcome to Silent Moon!
+User: hi
+Bot: What should I address you as?
+User: ad
+Bot: Nice name, ad!
+Bot: Would you like to name me?
+User: /deny
+Bot: I'm excited to get to know you! Let's get started.
+Bot: What is your age?
+User: 253
+Bot: For how many hours have you been sleeping per day for the past few days?
+User: /inform_sleep{"sleep_hours":"5-8"}
+Bot: When was the last time you got a blood test done?
+User: Not Sure
+Bot: What does your current mood look like?
+User: Anxious
+Bot: It can be difficult to identify our feelings, thank you for being aware.
+Bot: How intense is the feeling?
+User: Low
+Bot: Do you know why you are struggling with that?
+User: Family related reasons
+Bot: Sometimes, personal relationships can be taxing and can even take a toll mentally. 
+It is important to be empathetic and compassionate towards other people in challenging situations.
+Bot: Would you like to take a quick test that helps determine the likeliness of having a mental disorder? 
+(Kessler Psychological Distress Scale (K10) - 10 multiple choice questions)
+User: /deny
+Bot: Would you like to take a quick test that is used as a screening tool and severity measure for generalised anxiety disorder? 
+(Generalised Anxiety Disorder Assessment (GAD-7) - 7 multiple choice questions)
+User: /affirm
+Bot: Over the last 2 weeks, how often have you been bothered by any of the following problems?
+Bot: [1/7] Feeling nervous, anxious or on edge?
+User: 0
+Bot: [2/7] Not being able to stop or control worrying?
+User: 0
+Bot: [3/7] Worrying too much about different things?
+User: 0
+Bot: [4/7] Trouble relaxing?
+User: 0
+Bot: [5/7] Being so restless that it is hard to sit still?
+User: 0
+Bot: [6/7] Becoming easily annoyed or irritable?
+User: 0
+Bot: [7/7] Feeling afraid as if something awful might happen?
+User: 0
+Bot: Thanks ad, your answers have been recorded!
+Bot: Your Generalised Anxiety Disorder Questionnaire 
+ 
+ (GAD-7) Total is: 0/21
+ 
+You are likely to be well. 
+ 
+
+Bot: If you wish to know more about the GAD-7 Test, follow the link: https://patient.info/doctor/generalised-anxiety-disorder-assessment-gad-7#ref-2
+Bot: Would you like me to share your results via email?
+User: /deny
+Bot: Please enter your email address.
+User: f
+Bot: Do you want me to plan your day? 📝
+User: /deny
+Bot: Great! Use the following menu to choose an activity.
+Bot: None
+User: /k10_form
+Bot: Thanks for providing the details. We have sent you a mail at f
+Bot: Would you like to take a quick test that helps determine the likeliness of having a mental disorder? 
+(Kessler Psychological Distress Scale (K10) - 10 multiple choice questions)
+User: /deny
+Bot: None
+User: /k10_form
+Bot: Thanks for providing the details. We have sent you a mail at f
+Bot: Would you like to take a quick test that helps determine the likeliness of having a mental disorder? 
+(Kessler Psychological Distress Scale (K10) - 10 multiple choice questions)
+User: /deny
+
+User: /greet
+Bot: Hello there! Welcome to Silent Moon!
+User: hi
+Bot: What should I address you as?
+User: ad
+Bot: Nice name, ad!
+Bot: Would you like to name me?
+User: /deny
+Bot: I'm excited to get to know you! Let's get started.
+Bot: What is your age?
+User: 253
+Bot: For how many hours have you been sleeping per day for the past few days?
+User: /inform_sleep{"sleep_hours":"5-8"}
+Bot: When was the last time you got a blood test done?
+User: Not Sure
+Bot: What does your current mood look like?
+User: Anxious
+Bot: It can be difficult to identify our feelings, thank you for being aware.
+Bot: How intense is the feeling?
+User: Low
+Bot: Do you know why you are struggling with that?
+User: Family related reasons
+Bot: Sometimes, personal relationships can be taxing and can even take a toll mentally. 
+It is important to be empathetic and compassionate towards other people in challenging situations.
+Bot: Would you like to take a quick test that helps determine the likeliness of having a mental disorder? 
+(Kessler Psychological Distress Scale (K10) - 10 multiple choice questions)
+User: /deny
+Bot: Would you like to take a quick test that is used as a screening tool and severity measure for generalised anxiety disorder? 
+(Generalised Anxiety Disorder Assessment (GAD-7) - 7 multiple choice questions)
+User: /affirm
+Bot: Over the last 2 weeks, how often have you been bothered by any of the following problems?
+Bot: [1/7] Feeling nervous, anxious or on edge?
+User: 0
+Bot: [2/7] Not being able to stop or control worrying?
+User: 0
+Bot: [3/7] Worrying too much about different things?
+User: 0
+Bot: [4/7] Trouble relaxing?
+User: 0
+Bot: [5/7] Being so restless that it is hard to sit still?
+User: 0
+Bot: [6/7] Becoming easily annoyed or irritable?
+User: 0
+Bot: [7/7] Feeling afraid as if something awful might happen?
+User: 0
+Bot: Thanks ad, your answers have been recorded!
+Bot: Your Generalised Anxiety Disorder Questionnaire 
+ 
+ (GAD-7) Total is: 0/21
+ 
+You are likely to be well. 
+ 
+
+Bot: If you wish to know more about the GAD-7 Test, follow the link: https://patient.info/doctor/generalised-anxiety-disorder-assessment-gad-7#ref-2
+Bot: Would you like me to share your results via email?
+User: /deny
+Bot: Please enter your email address.
+User: f
+Bot: Do you want me to plan your day? 📝
+User: /deny
+Bot: Great! Use the following menu to choose an activity.
+Bot: None
+User: /k10_form
+Bot: Thanks for providing the details. We have sent you a mail at f
+Bot: Would you like to take a quick test that helps determine the likeliness of having a mental disorder? 
+(Kessler Psychological Distress Scale (K10) - 10 multiple choice questions)
+User: /deny
+Bot: None
+User: /k10_form
+Bot: Thanks for providing the details. We have sent you a mail at f
+Bot: Would you like to take a quick test that helps determine the likeliness of having a mental disorder? 
+(Kessler Psychological Distress Scale (K10) - 10 multiple choice questions)
+User: /deny
+Bot: None
+User: /k10_form
+Bot: Thanks for providing the details. We have sent you a mail at f
+Bot: Would you like to take a quick test that helps determine the likeliness of having a mental disorder? 
+(Kessler Psychological Distress Scale (K10) - 10 multiple choice questions)
+User: /deny
+
+User: /greet
+Bot: Hello there! Welcome to Silent Moon!
+User: hi
+Bot: What should I address you as?
+User: ad
+Bot: Nice name, ad!
+Bot: Would you like to name me?
+User: /deny
+Bot: I'm excited to get to know you! Let's get started.
+Bot: What is your age?
+User: 253
+Bot: For how many hours have you been sleeping per day for the past few days?
+User: /inform_sleep{"sleep_hours":"5-8"}
+Bot: When was the last time you got a blood test done?
+User: Not Sure
+Bot: What does your current mood look like?
+User: Anxious
+Bot: It can be difficult to identify our feelings, thank you for being aware.
+Bot: How intense is the feeling?
+User: Low
+Bot: Do you know why you are struggling with that?
+User: Family related reasons
+Bot: Sometimes, personal relationships can be taxing and can even take a toll mentally. 
+It is important to be empathetic and compassionate towards other people in challenging situations.
+Bot: Would you like to take a quick test that helps determine the likeliness of having a mental disorder? 
+(Kessler Psychological Distress Scale (K10) - 10 multiple choice questions)
+User: /deny
+Bot: Would you like to take a quick test that is used as a screening tool and severity measure for generalised anxiety disorder? 
+(Generalised Anxiety Disorder Assessment (GAD-7) - 7 multiple choice questions)
+User: /affirm
+Bot: Over the last 2 weeks, how often have you been bothered by any of the following problems?
+Bot: [1/7] Feeling nervous, anxious or on edge?
+User: 0
+Bot: [2/7] Not being able to stop or control worrying?
+User: 0
+Bot: [3/7] Worrying too much about different things?
+User: 0
+Bot: [4/7] Trouble relaxing?
+User: 0
+Bot: [5/7] Being so restless that it is hard to sit still?
+User: 0
+Bot: [6/7] Becoming easily annoyed or irritable?
+User: 0
+Bot: [7/7] Feeling afraid as if something awful might happen?
+User: 0
+Bot: Thanks ad, your answers have been recorded!
+Bot: Your Generalised Anxiety Disorder Questionnaire 
+ 
+ (GAD-7) Total is: 0/21
+ 
+You are likely to be well. 
+ 
+
+Bot: If you wish to know more about the GAD-7 Test, follow the link: https://patient.info/doctor/generalised-anxiety-disorder-assessment-gad-7#ref-2
+Bot: Would you like me to share your results via email?
+User: /deny
+Bot: Please enter your email address.
+User: f
+Bot: Do you want me to plan your day? 📝
+User: /deny
+Bot: Great! Use the following menu to choose an activity.
+Bot: None
+User: /k10_form
+Bot: Thanks for providing the details. We have sent you a mail at f
+Bot: Would you like to take a quick test that helps determine the likeliness of having a mental disorder? 
+(Kessler Psychological Distress Scale (K10) - 10 multiple choice questions)
+User: /deny
+Bot: None
+User: /k10_form
+Bot: Thanks for providing the details. We have sent you a mail at f
+Bot: Would you like to take a quick test that helps determine the likeliness of having a mental disorder? 
+(Kessler Psychological Distress Scale (K10) - 10 multiple choice questions)
+User: /deny
+Bot: None
+User: /k10_form
+Bot: Thanks for providing the details. We have sent you a mail at f
+Bot: Would you like to take a quick test that helps determine the likeliness of having a mental disorder? 
+(Kessler Psychological Distress Scale (K10) - 10 multiple choice questions)
+User: /deny
+Bot: None
+User: /gad_form
+Bot: Would you like to take a quick test that is used as a screening tool and severity measure for generalised anxiety disorder? 
+(Generalised Anxiety Disorder Assessment (GAD-7) - 7 multiple choice questions)
+User: /deny
+

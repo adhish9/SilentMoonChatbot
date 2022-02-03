@@ -1,0 +1,27 @@
+2021-12-20 16:47:57.731645,2b9e1d39c3384e5f96dd8cc8c3af5e93
+User: /greet
+Bot: Hello there! Welcome to Silent Moon!
+User: Hi
+Bot: What should I address you as?
+User: Amit
+Bot: Nice name, Amit!
+Bot: Would you like to name me?
+User: /deny
+Bot: I'm excited to get to know you! Let's get started.
+Bot: What is your age?
+User: 30
+Bot: For how many hours have you been sleeping per day for the past few days?
+User: /inform_sleep{"sleep_hours":"5-8"}
+Bot: When was the last time you got a blood test done?
+User: /inform_blood_test{"blood_test":"A couple of months back"}
+Bot: What does your current mood look like?
+User: Not sure
+Bot: No problem. 🙂
+Bot: It can be difficult to identify our feelings, thank you for being aware.
+Bot: Would you like to take a quick test that helps determine the likeliness of having a mental disorder? 
+(Kessler Psychological Distress Scale (K10) - 10 multiple choice questions)
+User: /deny
+Bot: Do you want me to plan your day? 📝
+User: /deny
+Bot: Great! Use the following menu to choose an activity.
+

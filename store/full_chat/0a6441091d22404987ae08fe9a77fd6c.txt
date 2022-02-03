@@ -1,0 +1,492 @@
+2021-12-20 13:48:33.100024,0a6441091d22404987ae08fe9a77fd6c
+User: /greet
+Bot: Hello there! Welcome to Silent Moon!
+User: hi
+Bot: What should I address you as?
+User: ad
+Bot: Nice name, ad!
+Bot: Would you like to name me?
+User: /deny
+Bot: I'm excited to get to know you! Let's get started.
+Bot: What is your age?
+User: 25
+Bot: For how many hours have you been sleeping per day for the past few days?
+User: /inform_sleep{"sleep_hours":"5-8"}
+Bot: When was the last time you got a blood test done?
+User: Not Sure
+Bot: What does your current mood look like?
+User: Anxious
+Bot: It can be difficult to identify our feelings, thank you for being aware.
+Bot: How intense is the feeling?
+User: Low
+Bot: Do you know why you are struggling with that?
+User: Family related reasons
+Bot: Sometimes, personal relationships can be taxing and can even take a toll mentally. 
+It is important to be empathetic and compassionate towards other people in challenging situations.
+Bot: Would you like to take a quick test that helps determine the likeliness of having a mental disorder? 
+(Kessler Psychological Distress Scale (K10) - 10 multiple choice questions)
+User: /affirm
+Bot: K10 Test:
+Bot: [1/10] During the last 30 days, about how often did you feel tired out for no good reason?
+User: 1
+Bot: Okay. 
+[2/10] During the last 30 days, about how often did you feel nervous?
+User: 2
+Bot: [3/10] During the last 30 days, about how often did you feel so nervous that nothing could calm you down?
+User: 3
+Bot: [4/10] During the last 30 days, about how often did you feel hopeless?
+User: 4
+Bot: [5/10] During the last 30 days, about how often did you feel restless or fidgety?
+User: 5
+Bot: [6/10] During the last 30 days, about how often did you feel so restless you could not sit still?
+User: 5
+Bot: [7/10] During the last 30 days, about how often did you feel depressed?
+User: 4
+Bot: [8/10] During the last 30 days, about how often did you feel that everything was an effort?
+User: 3
+Bot: [9/10] During the last 30 days, about how often did you feel so sad that nothing could cheer you up?
+User: 1
+Bot: [10/10] During the last 30 days, about how often did you feel worthless?
+User: 2
+Bot: Thanks ad, your answers have been recorded!
+Bot: Your K10 Test Score is: 30/50
+ 
+You are likely to have a severe mental disorder.
+ 
+If you wish to know more about the K10 Test, follow the link: https://www.tac.vic.gov.au/files-to-move/media/upload/k10_english.pdf 
+ 
+
+Bot: Would you like me to share your K10 test results via email?
+User: /affirm
+Bot: Please enter your email address.
+User: adhish.deshpande@gmail.com
+Bot: Thanks for providing the details. We have sent you a mail at adhish.deshpande@gmail.com
+Bot: Would you like to take a quick test that is used as a screening tool and severity measure for generalised anxiety disorder? 
+(Generalised Anxiety Disorder Assessment (GAD-7) - 7 multiple choice questions)
+User: /affirm
+Bot: Over the last 2 weeks, how often have you been bothered by any of the following problems?
+Bot: [1/7] Feeling nervous, anxious or on edge?
+User: 1
+Bot: [2/7] Not being able to stop or control worrying?
+User: 0
+Bot: [3/7] Worrying too much about different things?
+User: 2
+Bot: [4/7] Trouble relaxing?
+User: 3
+Bot: [5/7] Being so restless that it is hard to sit still?
+User: 1
+Bot: [6/7] Becoming easily annoyed or irritable?
+User: 2
+Bot: [7/7] Feeling afraid as if something awful might happen?
+User: 3
+Bot: Thanks ad, your answers have been recorded!
+Bot: Your Generalised Anxiety Disorder Questionnaire 
+ 
+ (GAD-7) Total is: 12/21
+ 
+You are likely to have moderate anxiety. 
+ 
+If you wish to know more about the GAD-7 Test, follow the link: https://patient.info/doctor/generalised-anxiety-disorder-assessment-gad-7#ref-2 
+ 
+
+Bot: Would you like me to share your GAD-7 test results via email?
+User: /affirm
+Bot: Thanks for providing the details. We have sent you a mail at adhish.deshpande@gmail.com
+Bot: Do you want me to plan your day? 📝
+User: /deny
+Bot: Great! Use the following menu to choose an activity.
+
+User: /greet
+Bot: Hello there! Welcome to Silent Moon!
+User: hi
+Bot: What should I address you as?
+User: ad
+Bot: Nice name, ad!
+Bot: Would you like to name me?
+User: /deny
+Bot: I'm excited to get to know you! Let's get started.
+Bot: What is your age?
+User: 25
+Bot: For how many hours have you been sleeping per day for the past few days?
+User: /inform_sleep{"sleep_hours":"5-8"}
+Bot: When was the last time you got a blood test done?
+User: Not Sure
+Bot: What does your current mood look like?
+User: Anxious
+Bot: It can be difficult to identify our feelings, thank you for being aware.
+Bot: How intense is the feeling?
+User: Low
+Bot: Do you know why you are struggling with that?
+User: Family related reasons
+Bot: Sometimes, personal relationships can be taxing and can even take a toll mentally. 
+It is important to be empathetic and compassionate towards other people in challenging situations.
+Bot: Would you like to take a quick test that helps determine the likeliness of having a mental disorder? 
+(Kessler Psychological Distress Scale (K10) - 10 multiple choice questions)
+User: /affirm
+Bot: K10 Test:
+Bot: [1/10] During the last 30 days, about how often did you feel tired out for no good reason?
+User: 1
+Bot: Okay. 
+[2/10] During the last 30 days, about how often did you feel nervous?
+User: 2
+Bot: [3/10] During the last 30 days, about how often did you feel so nervous that nothing could calm you down?
+User: 3
+Bot: [4/10] During the last 30 days, about how often did you feel hopeless?
+User: 4
+Bot: [5/10] During the last 30 days, about how often did you feel restless or fidgety?
+User: 5
+Bot: [6/10] During the last 30 days, about how often did you feel so restless you could not sit still?
+User: 5
+Bot: [7/10] During the last 30 days, about how often did you feel depressed?
+User: 4
+Bot: [8/10] During the last 30 days, about how often did you feel that everything was an effort?
+User: 3
+Bot: [9/10] During the last 30 days, about how often did you feel so sad that nothing could cheer you up?
+User: 1
+Bot: [10/10] During the last 30 days, about how often did you feel worthless?
+User: 2
+Bot: Thanks ad, your answers have been recorded!
+Bot: Your K10 Test Score is: 30/50
+ 
+You are likely to have a severe mental disorder.
+ 
+If you wish to know more about the K10 Test, follow the link: https://www.tac.vic.gov.au/files-to-move/media/upload/k10_english.pdf 
+ 
+
+Bot: Would you like me to share your K10 test results via email?
+User: /affirm
+Bot: Please enter your email address.
+User: adhish.deshpande@gmail.com
+Bot: Thanks for providing the details. We have sent you a mail at adhish.deshpande@gmail.com
+Bot: Would you like to take a quick test that is used as a screening tool and severity measure for generalised anxiety disorder? 
+(Generalised Anxiety Disorder Assessment (GAD-7) - 7 multiple choice questions)
+User: /affirm
+Bot: Over the last 2 weeks, how often have you been bothered by any of the following problems?
+Bot: [1/7] Feeling nervous, anxious or on edge?
+User: 1
+Bot: [2/7] Not being able to stop or control worrying?
+User: 0
+Bot: [3/7] Worrying too much about different things?
+User: 2
+Bot: [4/7] Trouble relaxing?
+User: 3
+Bot: [5/7] Being so restless that it is hard to sit still?
+User: 1
+Bot: [6/7] Becoming easily annoyed or irritable?
+User: 2
+Bot: [7/7] Feeling afraid as if something awful might happen?
+User: 3
+Bot: Thanks ad, your answers have been recorded!
+Bot: Your Generalised Anxiety Disorder Questionnaire 
+ 
+ (GAD-7) Total is: 12/21
+ 
+You are likely to have moderate anxiety. 
+ 
+If you wish to know more about the GAD-7 Test, follow the link: https://patient.info/doctor/generalised-anxiety-disorder-assessment-gad-7#ref-2 
+ 
+
+Bot: Would you like me to share your GAD-7 test results via email?
+User: /affirm
+Bot: Thanks for providing the details. We have sent you a mail at adhish.deshpande@gmail.com
+Bot: Do you want me to plan your day? 📝
+User: /deny
+Bot: Great! Use the following menu to choose an activity.
+Bot: None
+User: /gad_form
+Bot: Would you like to take a quick test that is used as a screening tool and severity measure for generalised anxiety disorder? 
+(Generalised Anxiety Disorder Assessment (GAD-7) - 7 multiple choice questions)
+User: /affirm
+Bot: Over the last 2 weeks, how often have you been bothered by any of the following problems?
+Bot: [1/7] Feeling nervous, anxious or on edge?
+User: 0
+Bot: [2/7] Not being able to stop or control worrying?
+User: 1
+Bot: [3/7] Worrying too much about different things?
+User: 2
+Bot: [4/7] Trouble relaxing?
+User: 3
+Bot: [5/7] Being so restless that it is hard to sit still?
+User: 3
+Bot: [6/7] Becoming easily annoyed or irritable?
+User: 0
+Bot: [7/7] Feeling afraid as if something awful might happen?
+User: 1
+Bot: Thanks ad, your answers have been recorded!
+Bot: Your Generalised Anxiety Disorder Questionnaire 
+ 
+ (GAD-7) Total is: 10/21
+ 
+You are likely to have moderate anxiety. 
+ 
+If you wish to know more about the GAD-7 Test, follow the link: https://patient.info/doctor/generalised-anxiety-disorder-assessment-gad-7#ref-2 
+ 
+
+Bot: Would you like me to share your GAD-7 test results via email?
+User: /affirm
+Bot: Thanks for providing the details. We have sent you a mail at adhish.deshpande@gmail.com
+
+User: /greet
+Bot: Hello there! Welcome to Silent Moon!
+User: hi
+Bot: What should I address you as?
+User: ad
+Bot: Nice name, ad!
+Bot: Would you like to name me?
+User: /deny
+Bot: I'm excited to get to know you! Let's get started.
+Bot: What is your age?
+User: 25
+Bot: For how many hours have you been sleeping per day for the past few days?
+User: /inform_sleep{"sleep_hours":"5-8"}
+Bot: When was the last time you got a blood test done?
+User: Not Sure
+Bot: What does your current mood look like?
+User: Anxious
+Bot: It can be difficult to identify our feelings, thank you for being aware.
+Bot: How intense is the feeling?
+User: Low
+Bot: Do you know why you are struggling with that?
+User: Family related reasons
+Bot: Sometimes, personal relationships can be taxing and can even take a toll mentally. 
+It is important to be empathetic and compassionate towards other people in challenging situations.
+Bot: Would you like to take a quick test that helps determine the likeliness of having a mental disorder? 
+(Kessler Psychological Distress Scale (K10) - 10 multiple choice questions)
+User: /affirm
+Bot: K10 Test:
+Bot: [1/10] During the last 30 days, about how often did you feel tired out for no good reason?
+User: 1
+Bot: Okay. 
+[2/10] During the last 30 days, about how often did you feel nervous?
+User: 2
+Bot: [3/10] During the last 30 days, about how often did you feel so nervous that nothing could calm you down?
+User: 3
+Bot: [4/10] During the last 30 days, about how often did you feel hopeless?
+User: 4
+Bot: [5/10] During the last 30 days, about how often did you feel restless or fidgety?
+User: 5
+Bot: [6/10] During the last 30 days, about how often did you feel so restless you could not sit still?
+User: 5
+Bot: [7/10] During the last 30 days, about how often did you feel depressed?
+User: 4
+Bot: [8/10] During the last 30 days, about how often did you feel that everything was an effort?
+User: 3
+Bot: [9/10] During the last 30 days, about how often did you feel so sad that nothing could cheer you up?
+User: 1
+Bot: [10/10] During the last 30 days, about how often did you feel worthless?
+User: 2
+Bot: Thanks ad, your answers have been recorded!
+Bot: Your K10 Test Score is: 30/50
+ 
+You are likely to have a severe mental disorder.
+ 
+If you wish to know more about the K10 Test, follow the link: https://www.tac.vic.gov.au/files-to-move/media/upload/k10_english.pdf 
+ 
+
+Bot: Would you like me to share your K10 test results via email?
+User: /affirm
+Bot: Please enter your email address.
+User: adhish.deshpande@gmail.com
+Bot: Thanks for providing the details. We have sent you a mail at adhish.deshpande@gmail.com
+Bot: Would you like to take a quick test that is used as a screening tool and severity measure for generalised anxiety disorder? 
+(Generalised Anxiety Disorder Assessment (GAD-7) - 7 multiple choice questions)
+User: /affirm
+Bot: Over the last 2 weeks, how often have you been bothered by any of the following problems?
+Bot: [1/7] Feeling nervous, anxious or on edge?
+User: 1
+Bot: [2/7] Not being able to stop or control worrying?
+User: 0
+Bot: [3/7] Worrying too much about different things?
+User: 2
+Bot: [4/7] Trouble relaxing?
+User: 3
+Bot: [5/7] Being so restless that it is hard to sit still?
+User: 1
+Bot: [6/7] Becoming easily annoyed or irritable?
+User: 2
+Bot: [7/7] Feeling afraid as if something awful might happen?
+User: 3
+Bot: Thanks ad, your answers have been recorded!
+Bot: Your Generalised Anxiety Disorder Questionnaire 
+ 
+ (GAD-7) Total is: 12/21
+ 
+You are likely to have moderate anxiety. 
+ 
+If you wish to know more about the GAD-7 Test, follow the link: https://patient.info/doctor/generalised-anxiety-disorder-assessment-gad-7#ref-2 
+ 
+
+Bot: Would you like me to share your GAD-7 test results via email?
+User: /affirm
+Bot: Thanks for providing the details. We have sent you a mail at adhish.deshpande@gmail.com
+Bot: Do you want me to plan your day? 📝
+User: /deny
+Bot: Great! Use the following menu to choose an activity.
+Bot: None
+User: /gad_form
+Bot: Would you like to take a quick test that is used as a screening tool and severity measure for generalised anxiety disorder? 
+(Generalised Anxiety Disorder Assessment (GAD-7) - 7 multiple choice questions)
+User: /affirm
+Bot: Over the last 2 weeks, how often have you been bothered by any of the following problems?
+Bot: [1/7] Feeling nervous, anxious or on edge?
+User: 0
+Bot: [2/7] Not being able to stop or control worrying?
+User: 1
+Bot: [3/7] Worrying too much about different things?
+User: 2
+Bot: [4/7] Trouble relaxing?
+User: 3
+Bot: [5/7] Being so restless that it is hard to sit still?
+User: 3
+Bot: [6/7] Becoming easily annoyed or irritable?
+User: 0
+Bot: [7/7] Feeling afraid as if something awful might happen?
+User: 1
+Bot: Thanks ad, your answers have been recorded!
+Bot: Your Generalised Anxiety Disorder Questionnaire 
+ 
+ (GAD-7) Total is: 10/21
+ 
+You are likely to have moderate anxiety. 
+ 
+If you wish to know more about the GAD-7 Test, follow the link: https://patient.info/doctor/generalised-anxiety-disorder-assessment-gad-7#ref-2 
+ 
+
+Bot: Would you like me to share your GAD-7 test results via email?
+User: /affirm
+Bot: Thanks for providing the details. We have sent you a mail at adhish.deshpande@gmail.com
+Bot: None
+User: totd
+User: totd
+User: tasks
+Bot: Do you want me to plan your day? 📝
+User: /deny
+Bot: Great! Use the following menu to choose an activity.
+
+User: totd
+Bot: Winning is nice if you don't lose your integrity in the process.
+
+~Arnold Horshak
+Bot: None
+User: /main_form
+Bot: For how many hours have you been sleeping per day for the past few days?
+User: /inform_sleep{"sleep_hours":"<5"}
+Bot: When was the last time you got a blood test done?
+User: Not Sure
+Bot: What does your current mood look like?
+User: Not sure
+Bot: No problem. 🙂
+Bot: It can be difficult to identify our feelings, thank you for being aware.
+
+User: totd
+Bot: Winning is nice if you don't lose your integrity in the process.
+
+~Arnold Horshak
+Bot: None
+User: /main_form
+Bot: For how many hours have you been sleeping per day for the past few days?
+User: /inform_sleep{"sleep_hours":"<5"}
+Bot: When was the last time you got a blood test done?
+User: Not Sure
+Bot: What does your current mood look like?
+User: Not sure
+Bot: No problem. 🙂
+Bot: It can be difficult to identify our feelings, thank you for being aware.
+Bot: None
+User: /main_form
+Bot: For how many hours have you been sleeping per day for the past few days?
+User: /inform_sleep{"sleep_hours":"5-8"}
+Bot: When was the last time you got a blood test done?
+User: Not Sure
+Bot: What does your current mood look like?
+User: Anxious
+Bot: It can be difficult to identify our feelings, thank you for being aware.
+Bot: How intense is the feeling?
+User: High
+Bot: Do you know why you are struggling with that?
+User: Relationships
+Bot: Sometimes, personal relationships can be taxing and can even take a toll mentally. 
+It is important to be empathetic and compassionate towards other people in challenging situations.
+Bot: Have you had any thoughts of self harm in the past few days?
+User: /affirm
+Bot: In case of self-harm or suicidal thoughts, it is necessary to seek professional help.
+Bot: Please use the following services for immediate assistance:
+Bot: iCALL: a psychological helpline that aims to provide high quality telephone counselling.
+022-25521111
++91-9152987821
+https://icallhelpline.org/
+Bot: AASRA: Whatever your concerns are, you can be rest assured that you will receive non-judgmental and non-critical listening.
++91-9820466726
+http://www.aasra.info/
+Bot: Was that helpful?
+User: /affirm
+
+User: totd
+Bot: Winning is nice if you don't lose your integrity in the process.
+
+~Arnold Horshak
+Bot: None
+User: /main_form
+Bot: For how many hours have you been sleeping per day for the past few days?
+User: /inform_sleep{"sleep_hours":"<5"}
+Bot: When was the last time you got a blood test done?
+User: Not Sure
+Bot: What does your current mood look like?
+User: Not sure
+Bot: No problem. 🙂
+Bot: It can be difficult to identify our feelings, thank you for being aware.
+Bot: None
+User: /main_form
+Bot: For how many hours have you been sleeping per day for the past few days?
+User: /inform_sleep{"sleep_hours":"5-8"}
+Bot: When was the last time you got a blood test done?
+User: Not Sure
+Bot: What does your current mood look like?
+User: Anxious
+Bot: It can be difficult to identify our feelings, thank you for being aware.
+Bot: How intense is the feeling?
+User: High
+Bot: Do you know why you are struggling with that?
+User: Relationships
+Bot: Sometimes, personal relationships can be taxing and can even take a toll mentally. 
+It is important to be empathetic and compassionate towards other people in challenging situations.
+Bot: Have you had any thoughts of self harm in the past few days?
+User: /affirm
+Bot: In case of self-harm or suicidal thoughts, it is necessary to seek professional help.
+Bot: Please use the following services for immediate assistance:
+Bot: iCALL: a psychological helpline that aims to provide high quality telephone counselling.
+022-25521111
++91-9152987821
+https://icallhelpline.org/
+Bot: AASRA: Whatever your concerns are, you can be rest assured that you will receive non-judgmental and non-critical listening.
++91-9820466726
+http://www.aasra.info/
+Bot: Was that helpful?
+User: /affirm
+Bot: None
+User: /main_form
+Bot: For how many hours have you been sleeping per day for the past few days?
+User: /inform_sleep{"sleep_hours":"5-8"}
+Bot: When was the last time you got a blood test done?
+User: Not Sure
+Bot: What does your current mood look like?
+User: Alone
+Bot: It can be difficult to identify our feelings, thank you for being aware.
+Bot: How intense is the feeling?
+User: High
+Bot: Do you know why you are struggling with that?
+User: Work
+Bot: Sometimes, work can be major stressor in many people's lives. 
+It is important to find the right balance to stay focused and motivated.
+Bot: Have you had any thoughts of self harm in the past few days?
+User: /affirm
+Bot: In case of self-harm or suicidal thoughts, it is necessary to seek professional help.
+Bot: Please use the following services for immediate assistance:
+Bot: iCALL: a psychological helpline that aims to provide high quality telephone counselling.
+022-25521111
++91-9152987821
+https://icallhelpline.org/
+Bot: AASRA: Whatever your concerns are, you can be rest assured that you will receive non-judgmental and non-critical listening.
++91-9820466726
+http://www.aasra.info/
+

@@ -1,0 +1,10 @@
+2021-12-17 05:09:49.521494,d50e954e95cb454d98643e5ee54041b0
+User: /greet
+Bot: Hello there! Welcome to Silent Moon!
+User: /carousel
+Bot: None
+User: /gad_form
+Bot: Would you like to take a quick test that is used as a screening tool and severity measure for generalised anxiety disorder? 
+(Generalised Anxiety Disorder Assessment (GAD-7) - 7 multiple choice questions)
+User: /deny
+

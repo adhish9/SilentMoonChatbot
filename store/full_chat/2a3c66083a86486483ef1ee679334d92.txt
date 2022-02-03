@@ -1,0 +1,10 @@
+2021-12-20 17:11:46.160803,2a3c66083a86486483ef1ee679334d92
+User: /greet
+Bot: Hello there! Welcome to Silent Moon!
+User: /carousel
+Bot: None
+User: /k10_form
+Bot: Would you like to take a quick test that helps determine the likeliness of having a mental disorder? 
+(Kessler Psychological Distress Scale (K10) - 10 multiple choice questions)
+User: /deny
+

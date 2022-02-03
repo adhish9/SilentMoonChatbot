@@ -1,0 +1,31 @@
+2021-12-03 17:34:31.722183,52c7257dc5b34e1397d73d2dcfaf9f95
+User: /greet
+Bot: Hello there! Welcome to Silent Moon!
+User: hi
+Bot: What should I address you as?
+User: ad
+Bot: Nice name ad!
+Bot: Would you like to name me?
+User: /deny
+Bot: I would like to know about you ad. What is your age?
+User: 25
+Bot: For how many hours have you been sleeping per day for the past few days?
+User: /inform_sleep{"sleep_hours":"5-8"}
+Bot: When was the last time you got a blood test done?
+User: Not Sure
+Bot: What does your current mood look like?
+User: Anxious
+Bot: How intense is the feeling?
+User: Low
+Bot: Do you know why you are struggling with that?
+User: Don't know
+Bot: Would you like to take a quick test that helps determine the likeliness of having a mental disorder? 
+(Kessler Psychological Distress Scale (K10) - 10 multiple choice questions)
+User: /deny
+Bot: Would you like to take a quick test that is used as a screening tool and severity measure for generalised anxiety disorder? 
+(Generalised Anxiety Disorder Assessment (GAD-7) - 7 multiple choice questions)
+User: /deny
+Bot: Do you want me to plan your day? 📝
+User: /deny
+Bot: Great, carry on!
+

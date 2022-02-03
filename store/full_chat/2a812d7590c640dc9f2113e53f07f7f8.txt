@@ -1,0 +1,413 @@
+2021-12-16 15:59:10.043652,2a812d7590c640dc9f2113e53f07f7f8
+User: /greet
+Bot: Hello there! Welcome to Silent Moon!
+User: /carousel
+Bot: None
+User: /k10_form
+Bot: Would you like to take a quick test that helps determine the likeliness of having a mental disorder? 
+(Kessler Psychological Distress Scale (K10) - 10 multiple choice questions)
+User: /deny
+
+User: /greet
+Bot: Hello there! Welcome to Silent Moon!
+User: /carousel
+Bot: None
+User: /k10_form
+Bot: Would you like to take a quick test that helps determine the likeliness of having a mental disorder? 
+(Kessler Psychological Distress Scale (K10) - 10 multiple choice questions)
+User: /deny
+Bot: None
+User: /k10_form
+Bot: Would you like to take a quick test that helps determine the likeliness of having a mental disorder? 
+(Kessler Psychological Distress Scale (K10) - 10 multiple choice questions)
+User: /affirm
+Bot: K10 Test:
+Bot: [1/10] During the last 30 days, about how often did you feel tired out for no good reason?
+User: 1
+Bot: Okay. 
+[2/10] During the last 30 days, about how often did you feel nervous?
+User: 1
+Bot: [3/10] During the last 30 days, about how often did you feel so nervous that nothing could calm you down?
+User: 1
+Bot: [4/10] During the last 30 days, about how often did you feel hopeless?
+User: 1
+Bot: [5/10] During the last 30 days, about how often did you feel restless or fidgety?
+User: 1
+Bot: [6/10] During the last 30 days, about how often did you feel so restless you could not sit still?
+User: 2
+Bot: [7/10] During the last 30 days, about how often did you feel depressed?
+User: 2
+Bot: [8/10] During the last 30 days, about how often did you feel that everything was an effort?
+User: 4
+Bot: [9/10] During the last 30 days, about how often did you feel so sad that nothing could cheer you up?
+User: 4
+Bot: [10/10] During the last 30 days, about how often did you feel worthless?
+User: 2
+Bot: Thanks guest, your answers have been recorded!
+Bot: Your K10 Test Score is: 19/50
+ 
+You are likely to be well.
+ 
+ If you wish to know more about the K10 Test, follow the link: https://www.tac.vic.gov.au/files-to-move/media/upload/k10_english.pdf 
+ 
+
+Bot: Would you like me to share your results via email?
+User: /affirm
+Bot: Please enter your email address.
+User: adhish.deshpande@gmail.com
+
+User: /greet
+Bot: Hello there! Welcome to Silent Moon!
+User: /carousel
+Bot: None
+User: /k10_form
+Bot: Would you like to take a quick test that helps determine the likeliness of having a mental disorder? 
+(Kessler Psychological Distress Scale (K10) - 10 multiple choice questions)
+User: /deny
+Bot: None
+User: /k10_form
+Bot: Would you like to take a quick test that helps determine the likeliness of having a mental disorder? 
+(Kessler Psychological Distress Scale (K10) - 10 multiple choice questions)
+User: /affirm
+Bot: K10 Test:
+Bot: [1/10] During the last 30 days, about how often did you feel tired out for no good reason?
+User: 1
+Bot: Okay. 
+[2/10] During the last 30 days, about how often did you feel nervous?
+User: 1
+Bot: [3/10] During the last 30 days, about how often did you feel so nervous that nothing could calm you down?
+User: 1
+Bot: [4/10] During the last 30 days, about how often did you feel hopeless?
+User: 1
+Bot: [5/10] During the last 30 days, about how often did you feel restless or fidgety?
+User: 1
+Bot: [6/10] During the last 30 days, about how often did you feel so restless you could not sit still?
+User: 2
+Bot: [7/10] During the last 30 days, about how often did you feel depressed?
+User: 2
+Bot: [8/10] During the last 30 days, about how often did you feel that everything was an effort?
+User: 4
+Bot: [9/10] During the last 30 days, about how often did you feel so sad that nothing could cheer you up?
+User: 4
+Bot: [10/10] During the last 30 days, about how often did you feel worthless?
+User: 2
+Bot: Thanks guest, your answers have been recorded!
+Bot: Your K10 Test Score is: 19/50
+ 
+You are likely to be well.
+ 
+ If you wish to know more about the K10 Test, follow the link: https://www.tac.vic.gov.au/files-to-move/media/upload/k10_english.pdf 
+ 
+
+Bot: Would you like me to share your results via email?
+User: /affirm
+Bot: Please enter your email address.
+User: adhish.deshpande@gmail.com
+Bot: None
+User: /gad_form
+Bot: Would you like to take a quick test that is used as a screening tool and severity measure for generalised anxiety disorder? 
+(Generalised Anxiety Disorder Assessment (GAD-7) - 7 multiple choice questions)
+User: /deny
+
+User: /greet
+Bot: Hello there! Welcome to Silent Moon!
+User: /carousel
+Bot: None
+User: /k10_form
+Bot: Would you like to take a quick test that helps determine the likeliness of having a mental disorder? 
+(Kessler Psychological Distress Scale (K10) - 10 multiple choice questions)
+User: /deny
+Bot: None
+User: /k10_form
+Bot: Would you like to take a quick test that helps determine the likeliness of having a mental disorder? 
+(Kessler Psychological Distress Scale (K10) - 10 multiple choice questions)
+User: /affirm
+Bot: K10 Test:
+Bot: [1/10] During the last 30 days, about how often did you feel tired out for no good reason?
+User: 1
+Bot: Okay. 
+[2/10] During the last 30 days, about how often did you feel nervous?
+User: 1
+Bot: [3/10] During the last 30 days, about how often did you feel so nervous that nothing could calm you down?
+User: 1
+Bot: [4/10] During the last 30 days, about how often did you feel hopeless?
+User: 1
+Bot: [5/10] During the last 30 days, about how often did you feel restless or fidgety?
+User: 1
+Bot: [6/10] During the last 30 days, about how often did you feel so restless you could not sit still?
+User: 2
+Bot: [7/10] During the last 30 days, about how often did you feel depressed?
+User: 2
+Bot: [8/10] During the last 30 days, about how often did you feel that everything was an effort?
+User: 4
+Bot: [9/10] During the last 30 days, about how often did you feel so sad that nothing could cheer you up?
+User: 4
+Bot: [10/10] During the last 30 days, about how often did you feel worthless?
+User: 2
+Bot: Thanks guest, your answers have been recorded!
+Bot: Your K10 Test Score is: 19/50
+ 
+You are likely to be well.
+ 
+ If you wish to know more about the K10 Test, follow the link: https://www.tac.vic.gov.au/files-to-move/media/upload/k10_english.pdf 
+ 
+
+Bot: Would you like me to share your results via email?
+User: /affirm
+Bot: Please enter your email address.
+User: adhish.deshpande@gmail.com
+Bot: None
+User: /gad_form
+Bot: Would you like to take a quick test that is used as a screening tool and severity measure for generalised anxiety disorder? 
+(Generalised Anxiety Disorder Assessment (GAD-7) - 7 multiple choice questions)
+User: /deny
+Bot: None
+User: /gad_form
+Bot: Would you like to take a quick test that is used as a screening tool and severity measure for generalised anxiety disorder? 
+(Generalised Anxiety Disorder Assessment (GAD-7) - 7 multiple choice questions)
+User: /affirm
+Bot: Over the last 2 weeks, how often have you been bothered by any of the following problems?
+Bot: [1/7] Feeling nervous, anxious or on edge?
+User: 3
+Bot: [2/7] Not being able to stop or control worrying?
+User: 1
+Bot: [3/7] Worrying too much about different things?
+User: 2
+Bot: [4/7] Trouble relaxing?
+User: 1
+Bot: [5/7] Being so restless that it is hard to sit still?
+User: 1
+Bot: [6/7] Becoming easily annoyed or irritable?
+User: 1
+Bot: [7/7] Feeling afraid as if something awful might happen?
+User: 1
+Bot: Thanks guest, your answers have been recorded!
+Bot: Your Generalised Anxiety Disorder Questionnaire 
+ 
+ (GAD-7) Total is: 10/21
+ 
+You are likely to have moderate anxiety. 
+ 
+If you wish to know more about the GAD-7 Test, follow the link: https://patient.info/doctor/generalised-anxiety-disorder-assessment-gad-7#ref-2 
+ 
+
+Bot: Would you like me to share your results via email?
+User: /affirm
+
+User: /greet
+Bot: Hello there! Welcome to Silent Moon!
+User: /carousel
+Bot: None
+User: /k10_form
+Bot: Would you like to take a quick test that helps determine the likeliness of having a mental disorder? 
+(Kessler Psychological Distress Scale (K10) - 10 multiple choice questions)
+User: /deny
+Bot: None
+User: /k10_form
+Bot: Would you like to take a quick test that helps determine the likeliness of having a mental disorder? 
+(Kessler Psychological Distress Scale (K10) - 10 multiple choice questions)
+User: /affirm
+Bot: K10 Test:
+Bot: [1/10] During the last 30 days, about how often did you feel tired out for no good reason?
+User: 1
+Bot: Okay. 
+[2/10] During the last 30 days, about how often did you feel nervous?
+User: 1
+Bot: [3/10] During the last 30 days, about how often did you feel so nervous that nothing could calm you down?
+User: 1
+Bot: [4/10] During the last 30 days, about how often did you feel hopeless?
+User: 1
+Bot: [5/10] During the last 30 days, about how often did you feel restless or fidgety?
+User: 1
+Bot: [6/10] During the last 30 days, about how often did you feel so restless you could not sit still?
+User: 2
+Bot: [7/10] During the last 30 days, about how often did you feel depressed?
+User: 2
+Bot: [8/10] During the last 30 days, about how often did you feel that everything was an effort?
+User: 4
+Bot: [9/10] During the last 30 days, about how often did you feel so sad that nothing could cheer you up?
+User: 4
+Bot: [10/10] During the last 30 days, about how often did you feel worthless?
+User: 2
+Bot: Thanks guest, your answers have been recorded!
+Bot: Your K10 Test Score is: 19/50
+ 
+You are likely to be well.
+ 
+ If you wish to know more about the K10 Test, follow the link: https://www.tac.vic.gov.au/files-to-move/media/upload/k10_english.pdf 
+ 
+
+Bot: Would you like me to share your results via email?
+User: /affirm
+Bot: Please enter your email address.
+User: adhish.deshpande@gmail.com
+Bot: None
+User: /gad_form
+Bot: Would you like to take a quick test that is used as a screening tool and severity measure for generalised anxiety disorder? 
+(Generalised Anxiety Disorder Assessment (GAD-7) - 7 multiple choice questions)
+User: /deny
+Bot: None
+User: /gad_form
+Bot: Would you like to take a quick test that is used as a screening tool and severity measure for generalised anxiety disorder? 
+(Generalised Anxiety Disorder Assessment (GAD-7) - 7 multiple choice questions)
+User: /affirm
+Bot: Over the last 2 weeks, how often have you been bothered by any of the following problems?
+Bot: [1/7] Feeling nervous, anxious or on edge?
+User: 3
+Bot: [2/7] Not being able to stop or control worrying?
+User: 1
+Bot: [3/7] Worrying too much about different things?
+User: 2
+Bot: [4/7] Trouble relaxing?
+User: 1
+Bot: [5/7] Being so restless that it is hard to sit still?
+User: 1
+Bot: [6/7] Becoming easily annoyed or irritable?
+User: 1
+Bot: [7/7] Feeling afraid as if something awful might happen?
+User: 1
+Bot: Thanks guest, your answers have been recorded!
+Bot: Your Generalised Anxiety Disorder Questionnaire 
+ 
+ (GAD-7) Total is: 10/21
+ 
+You are likely to have moderate anxiety. 
+ 
+If you wish to know more about the GAD-7 Test, follow the link: https://patient.info/doctor/generalised-anxiety-disorder-assessment-gad-7#ref-2 
+ 
+
+Bot: Would you like me to share your results via email?
+User: /affirm
+Bot: None
+User: /k10_form
+Bot: Would you like to take a quick test that helps determine the likeliness of having a mental disorder? 
+(Kessler Psychological Distress Scale (K10) - 10 multiple choice questions)
+User: /deny
+
+User: /greet
+Bot: Hello there! Welcome to Silent Moon!
+User: /carousel
+Bot: None
+User: /k10_form
+Bot: Would you like to take a quick test that helps determine the likeliness of having a mental disorder? 
+(Kessler Psychological Distress Scale (K10) - 10 multiple choice questions)
+User: /deny
+Bot: None
+User: /k10_form
+Bot: Would you like to take a quick test that helps determine the likeliness of having a mental disorder? 
+(Kessler Psychological Distress Scale (K10) - 10 multiple choice questions)
+User: /affirm
+Bot: K10 Test:
+Bot: [1/10] During the last 30 days, about how often did you feel tired out for no good reason?
+User: 1
+Bot: Okay. 
+[2/10] During the last 30 days, about how often did you feel nervous?
+User: 1
+Bot: [3/10] During the last 30 days, about how often did you feel so nervous that nothing could calm you down?
+User: 1
+Bot: [4/10] During the last 30 days, about how often did you feel hopeless?
+User: 1
+Bot: [5/10] During the last 30 days, about how often did you feel restless or fidgety?
+User: 1
+Bot: [6/10] During the last 30 days, about how often did you feel so restless you could not sit still?
+User: 2
+Bot: [7/10] During the last 30 days, about how often did you feel depressed?
+User: 2
+Bot: [8/10] During the last 30 days, about how often did you feel that everything was an effort?
+User: 4
+Bot: [9/10] During the last 30 days, about how often did you feel so sad that nothing could cheer you up?
+User: 4
+Bot: [10/10] During the last 30 days, about how often did you feel worthless?
+User: 2
+Bot: Thanks guest, your answers have been recorded!
+Bot: Your K10 Test Score is: 19/50
+ 
+You are likely to be well.
+ 
+ If you wish to know more about the K10 Test, follow the link: https://www.tac.vic.gov.au/files-to-move/media/upload/k10_english.pdf 
+ 
+
+Bot: Would you like me to share your results via email?
+User: /affirm
+Bot: Please enter your email address.
+User: adhish.deshpande@gmail.com
+Bot: None
+User: /gad_form
+Bot: Would you like to take a quick test that is used as a screening tool and severity measure for generalised anxiety disorder? 
+(Generalised Anxiety Disorder Assessment (GAD-7) - 7 multiple choice questions)
+User: /deny
+Bot: None
+User: /gad_form
+Bot: Would you like to take a quick test that is used as a screening tool and severity measure for generalised anxiety disorder? 
+(Generalised Anxiety Disorder Assessment (GAD-7) - 7 multiple choice questions)
+User: /affirm
+Bot: Over the last 2 weeks, how often have you been bothered by any of the following problems?
+Bot: [1/7] Feeling nervous, anxious or on edge?
+User: 3
+Bot: [2/7] Not being able to stop or control worrying?
+User: 1
+Bot: [3/7] Worrying too much about different things?
+User: 2
+Bot: [4/7] Trouble relaxing?
+User: 1
+Bot: [5/7] Being so restless that it is hard to sit still?
+User: 1
+Bot: [6/7] Becoming easily annoyed or irritable?
+User: 1
+Bot: [7/7] Feeling afraid as if something awful might happen?
+User: 1
+Bot: Thanks guest, your answers have been recorded!
+Bot: Your Generalised Anxiety Disorder Questionnaire 
+ 
+ (GAD-7) Total is: 10/21
+ 
+You are likely to have moderate anxiety. 
+ 
+If you wish to know more about the GAD-7 Test, follow the link: https://patient.info/doctor/generalised-anxiety-disorder-assessment-gad-7#ref-2 
+ 
+
+Bot: Would you like me to share your results via email?
+User: /affirm
+Bot: None
+User: /k10_form
+Bot: Would you like to take a quick test that helps determine the likeliness of having a mental disorder? 
+(Kessler Psychological Distress Scale (K10) - 10 multiple choice questions)
+User: /deny
+Bot: None
+User: /k10_form
+Bot: Would you like to take a quick test that helps determine the likeliness of having a mental disorder? 
+(Kessler Psychological Distress Scale (K10) - 10 multiple choice questions)
+User: /affirm
+Bot: K10 Test:
+Bot: [1/10] During the last 30 days, about how often did you feel tired out for no good reason?
+User: 5
+Bot: Okay. 
+[2/10] During the last 30 days, about how often did you feel nervous?
+User: 5
+Bot: [3/10] During the last 30 days, about how often did you feel so nervous that nothing could calm you down?
+User: 5
+Bot: [4/10] During the last 30 days, about how often did you feel hopeless?
+User: 5
+Bot: [5/10] During the last 30 days, about how often did you feel restless or fidgety?
+User: 5
+Bot: [6/10] During the last 30 days, about how often did you feel so restless you could not sit still?
+User: 5
+Bot: [7/10] During the last 30 days, about how often did you feel depressed?
+User: 5
+Bot: [8/10] During the last 30 days, about how often did you feel that everything was an effort?
+User: 5
+Bot: [9/10] During the last 30 days, about how often did you feel so sad that nothing could cheer you up?
+User: 5
+Bot: [10/10] During the last 30 days, about how often did you feel worthless?
+User: 5
+Bot: Thanks guest, your answers have been recorded!
+Bot: Your K10 Test Score is: 50/50
+ 
+You are likely to have a severe mental disorder.
+ 
+If you wish to know more about the K10 Test, follow the link: https://www.tac.vic.gov.au/files-to-move/media/upload/k10_english.pdf 
+ 
+
+Bot: Would you like me to share your results via email?
+User: /affirm
+

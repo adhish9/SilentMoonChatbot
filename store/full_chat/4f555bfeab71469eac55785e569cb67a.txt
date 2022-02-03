@@ -1,0 +1,74 @@
+2022-02-02 16:19:40.757987,4f555bfeab71469eac55785e569cb67a
+User: /greet
+Bot: Hello there! Welcome to Silent Moon!
+User: hi
+Bot: What should I address you as?
+User: adhish
+Bot: Nice name, adhish!
+Bot: Would you like to name me?
+User: /deny
+Bot: I'm excited to get to know you! Let's get started.
+Bot: What is your age?
+User: 25
+Bot: For how many hours have you been sleeping per day for the past few days?
+User: 5-8
+Bot: Sleeping helps us to recover from mental as well as physical exertion. 
+Sleep and health are strongly related - poor sleep can increase the risk of having poor health, and poor health can make it harder to sleep. Sleep disturbances can be one of the first signs of distress.
+Bot: When was the last time you got a blood test done?
+User: Not Sure
+Bot: What does your current mood look like?
+User: Excited
+Bot: 👍 Great!
+Bot: Would you like to take a quick test that helps determine the likeliness of having a mental disorder?
+User: /affirm
+Bot: Kessler Psychological Distress Scale (K10) - 10 multiple choice questions.
+Bot: [1/10] During the last 30 days, about how often did you feel tired out for no good reason?
+User: 1
+Bot: Okay. 
+[2/10] During the last 30 days, about how often did you feel nervous?
+User: 1
+Bot: [3/10] During the last 30 days, about how often did you feel so nervous that nothing could calm you down?
+User: 2
+Bot: [4/10] During the last 30 days, about how often did you feel hopeless?
+User: 1
+Bot: [5/10] During the last 30 days, about how often did you feel restless or fidgety?
+User: 1
+Bot: [6/10] During the last 30 days, about how often did you feel so restless you could not sit still?
+User: 3
+Bot: [7/10] During the last 30 days, about how often did you feel depressed?
+User: 2
+Bot: [8/10] During the last 30 days, about how often did you feel that everything was an effort?
+User: 3
+Bot: [9/10] During the last 30 days, about how often did you feel so sad that nothing could cheer you up?
+User: 2
+Bot: [10/10] During the last 30 days, about how often did you feel worthless?
+User: 1
+Bot: Thanks adhish, your answers have been recorded!
+Bot: Your K10 Test Score is: 17/50
+
+You are likely to be well.
+
+Bot: Would you like receive an email to get more information on the K10 test and to understand what your test score means?
+User: /affirm
+Bot: Please enter your email address.
+User: adhish.deshpande@gmail.com
+Bot: Something went wrong, please try again.
+Bot: Please enter your email address.
+User: adhish.deshpande@gmail.com
+Bot: Something went wrong, please try again.
+Bot: Please enter your email address.
+User: adhish.deshpande@gmail.com
+Bot: Thank you. We have sent you an email at adhish.deshpande@gmail.com with your test results and more information.
+Bot: Do you want me to plan your day? 📝
+User: /affirm
+Bot: Great, let me know what's your plan for today?
+Bot: Enter a task.
+User: present introduction to chatbots
+Bot: Tasks for today:
+✔️present introduction to chatbots
+Bot: Would you like to add another task?
+User: /deny
+Bot: Tasks for today:
+✔️present introduction to chatbots
+Bot: Use the following menu to choose an activity.
+

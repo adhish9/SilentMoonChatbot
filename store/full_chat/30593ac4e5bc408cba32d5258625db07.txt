@@ -1,0 +1,48 @@
+2021-12-21 17:31:31.742718,30593ac4e5bc408cba32d5258625db07
+User: /greet
+Bot: Hello there! Welcome to Silent Moon!
+User: hi
+Bot: What should I address you as?
+User: add
+Bot: Nice name, add!
+Bot: Would you like to name me?
+User: /affirm
+Bot: What would you like to name me?
+User: noob
+Bot: 🤖 Thank you for giving me an identity, add! I'm excited to get to know you! 😃 Let's get started.
+Bot: What is your age?
+User: 25
+Bot: For how many hours have you been sleeping per day for the past few days?
+User: >10
+Bot: While sleep requirements vary slightly from person to person, most healthy adults need 7 to 9 hours of sleep per night to function at their best.
+Bot: When was the last time you got a blood test done?
+User: Not Sure
+Bot: What does your current mood look like?
+User: Depressed
+Bot: It can be difficult to identify our feelings, thank you for being aware.
+Bot: How intense is the feeling?
+User: High
+Bot: Do you know why you are struggling with that?
+User: Family related reasons
+Bot: Sometimes, personal relationships can be taxing and can even take a toll mentally. 
+It is important to be empathetic and compassionate towards other people in challenging situations.
+Bot: Have you had any thoughts of self harm in the past few days?
+User: /affirm
+Bot: In case of self-harm or suicidal thoughts, it is necessary to seek professional help.
+Bot: Please use the following services for immediate assistance:
+Bot: iCALL: a psychological helpline that aims to provide high quality telephone counselling.
+022-25521111
++91-9152987821
+https://icallhelpline.org/
+Bot: AASRA: Whatever your concerns are, you can be rest assured that you will receive non-judgmental and non-critical listening.
++91-9820466726
+http://www.aasra.info/
+Bot: Was that helpful?
+User: /deny
+Bot: Alright. Let’s work on it together.
+Bot: Would you like to take a quick test that helps determine the likeliness of having a mental disorder?
+User: /deny
+Bot: Do you want me to plan your day? 📝
+User: /deny
+Bot: Alright. You can come back and plan your day by saying 'tasks', 'planner' or selecting 'To-do list' on the menu.
+

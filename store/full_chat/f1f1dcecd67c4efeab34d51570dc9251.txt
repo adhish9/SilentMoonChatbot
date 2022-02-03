@@ -1,0 +1,26 @@
+2021-12-22 14:15:28.588960,f1f1dcecd67c4efeab34d51570dc9251
+User: /greet
+Bot: Hello there! Welcome to Silent Moon!
+User: /carousel
+Bot: None
+User: totd
+Bot: None
+User: tasks
+Bot: Great, let me know what's your plan for today?
+Bot: Enter a task.
+User: Sss
+Bot: Tasks for today:
+✔️Sss
+Bot: Would you like to add another task?
+User: /affirm
+Bot: Enter a task.
+User: Kg
+Bot: Tasks for today:
+✔️Sss
+✔️Kg
+Bot: Would you like to add another task?
+User: /deny
+Bot: Tasks for today:
+✔️Sss
+✔️Kg
+

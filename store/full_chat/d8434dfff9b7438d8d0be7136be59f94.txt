@@ -1,0 +1,66 @@
+2021-12-22 11:06:42.128583,d8434dfff9b7438d8d0be7136be59f94
+User: /greet
+Bot: Hello there! Welcome to Silent Moon!
+User: hi
+Bot: What should I address you as?
+User: fatty
+Bot: Nice name, fatty!
+Bot: Would you like to name me?
+User: /deny
+Bot: I'm excited to get to know you! Let's get started.
+Bot: What is your age?
+User: 25
+Bot: For how many hours have you been sleeping per day for the past few days?
+User: <5
+Bot: Sleep and mental health are closely connected. Sleep deprivation affects your psychological state and mental health.
+ And those with mental health problems are more likely to have insomnia or other sleep disorders. Please make sure you get to bed early. 
+Bot: When was the last time you got a blood test done?
+User: /inform_blood_test{"blood_test":"In the last six months"}
+Bot: What does your current mood look like?
+User: Happy
+Bot: 👍 Great!
+Bot: Would you like to take a quick test that helps determine the likeliness of having a mental disorder?
+User: /deny
+Bot: Use the following menu to choose an activity.
+Bot: Do you want me to plan your day? 📝
+User: /deny
+Bot: Alright. You can come back and plan your day by saying 'tasks', 'planner' or selecting 'To-do list' on the menu.
+
+User: /greet
+Bot: Hello there! Welcome to Silent Moon!
+User: hi
+Bot: What should I address you as?
+User: fatty
+Bot: Nice name, fatty!
+Bot: Would you like to name me?
+User: /deny
+Bot: I'm excited to get to know you! Let's get started.
+Bot: What is your age?
+User: 25
+Bot: For how many hours have you been sleeping per day for the past few days?
+User: <5
+Bot: Sleep and mental health are closely connected. Sleep deprivation affects your psychological state and mental health.
+ And those with mental health problems are more likely to have insomnia or other sleep disorders. Please make sure you get to bed early. 
+Bot: When was the last time you got a blood test done?
+User: /inform_blood_test{"blood_test":"In the last six months"}
+Bot: What does your current mood look like?
+User: Happy
+Bot: 👍 Great!
+Bot: Would you like to take a quick test that helps determine the likeliness of having a mental disorder?
+User: /deny
+Bot: Use the following menu to choose an activity.
+Bot: Do you want me to plan your day? 📝
+User: /deny
+Bot: Alright. You can come back and plan your day by saying 'tasks', 'planner' or selecting 'To-do list' on the menu.
+Bot: None
+User: tasks
+Bot: Great, let me know what's your plan for today?
+Bot: Enter a task.
+User: kt
+Bot: Tasks for today:
+✔️kt
+Bot: Would you like to add another task?
+User: /deny
+Bot: Tasks for today:
+✔️kt
+

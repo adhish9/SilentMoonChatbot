@@ -1,0 +1,34 @@
+,GAD xl sheet,GAD form,2021-10-14 17:07:34.458820
+,GAD xl sheet,GAD form,GAD score results,2021-10-14 17:08:53.849642
+faty,5.30 meeting with subodh,6.45 training,8.45 dinner,10.30 skin care,11 pm sleep,2021-11-01 16:57:52.017649
+faty,5.30 meeting with subodh,6.45 training,8.45 dinner,10.30 skin care,11 pm sleep,starbucks,2021-11-01 16:59:43.109827
+ad,cards,carousal,2021-11-08 17:39:45.265810
+ad,cards,carousal,no,2021-11-08 17:41:10.252779
+ad,carousel,save  convo,avoid replies when buttons,2021-11-09 16:42:58.609396
+ad,carousal,remove brs,2021-11-10 14:33:40.568135
+ ,look for papers,2021-11-10 15:32:31.315695
+Hi,Tution,Dinner,Sleep,2021-11-29 18:01:40.818450
+Ad,Tution,Dinner,Sleep,Valo,2021-11-29 18:04:26.294282
+Ad,Tution,Dinner,Sleep,Valo,Score,2021-11-29 18:05:29.349365
+Hi,Go to gym,Read a book,Sleep early,2021-11-29 19:36:57.044006
+tasks,suicide,eat poison,jump off a building,go to hospital,ask adhish for some marijuana,get turnt af,2021-11-30 11:35:48.095943
+Amit,kk,2021-11-30 16:49:14.994628
+T,Wsc,Wd,2021-12-01 22:40:55.271874
+guest,Wsc,Wd,aa,2021-12-02 15:26:33.444783
+ad,create dict to save temp tasks,2021-12-02 16:03:54.757910
+43f7ef6abdea4836900e8f9077e6dbaf,ad,discuss conversation flow,meet with subodh,2021-12-06 23:21:36.386665
+a975449f05924bbcb8dc69ffe0d7ce70,guest,meet subodh,2021-12-06 23:24:15.426929
+95a82d9a20de4e6483bb5b78d0ed6a1e,ad,meet sudobh,convo flow fatima,2021-12-06 23:30:48.335870
+e1dc6e03696845bfb55a58745500120f,fatema,got to work,visit the doc,meet a friend,go to bed,2021-12-07 12:48:45.505375
+d82120bd7eb84dd286564d6d18146230,fatema,go to class,eat lunch,do yoga,read a book,go to bed on time,2021-12-13 16:25:28.262681
+d892b22f95b94dc3a505780257c987bd,guest,sadasd,ads,2021-12-21 16:32:48.357867
+8497dea0dc864e72a0e9565fcc67b481,guest,a,s,d,a,s,d,,,d,a,s,d,a,d,s,a,d,2021-12-21 17:59:02.344429
+18c501f71fe54c42abcf973ddc220f5d,guest,dasda,sdfgsdfs,asdasdad,2021-12-21 18:23:13.153194
+18c501f71fe54c42abcf973ddc220f5d,guest,dasda,sdfgsdfs,asdasdad,tgg,2021-12-21 18:24:11.831016
+8497dea0dc864e72a0e9565fcc67b481,guest,asdasd,dasdadsad,dasdasda,2021-12-21 18:27:19.688514
+d8434dfff9b7438d8d0be7136be59f94,fatty,kt,2021-12-22 11:07:51.905826
+f1f1dcecd67c4efeab34d51570dc9251,guest,Sss,Kg,2021-12-22 14:15:26.525887
+f7fd5c51956e4e93af5b518d2c7ad9df,fat,522153,2021-12-23 15:34:51.679503
+7361af1d9d9b42748de2d9983b58b3b5,guest,Tt,2021-12-27 17:19:42.143592
+7d6457a023ff4a8e8ef426e21778d87c,ad,email link,2022-01-28 16:56:21.558533
+4f555bfeab71469eac55785e569cb67a,adhish,present introduction to chatbots,2022-02-02 16:19:38.668015

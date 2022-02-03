@@ -1,0 +1,54 @@
+2021-12-20 17:32:24.413196,d6b8c12197d24989864600cbb2b6c769
+User: /greet
+Bot: Hello there! Welcome to Silent Moon!
+User: /carousel
+Bot: None
+User: /gad_form
+Bot: Would you like to take a quick test that is used as a screening tool and severity measure for generalised anxiety disorder? 
+(Generalised Anxiety Disorder Assessment (GAD-7) - 7 multiple choice questions)
+User: /deny
+
+User: /greet
+Bot: Hello there! Welcome to Silent Moon!
+User: /carousel
+Bot: None
+User: /gad_form
+Bot: Would you like to take a quick test that is used as a screening tool and severity measure for generalised anxiety disorder? 
+(Generalised Anxiety Disorder Assessment (GAD-7) - 7 multiple choice questions)
+User: /deny
+Bot: None
+User: /gad_form
+Bot: Would you like to take a quick test that is used as a screening tool and severity measure for generalised anxiety disorder? 
+(Generalised Anxiety Disorder Assessment (GAD-7) - 7 multiple choice questions)
+User: /affirm
+Bot: Over the last 2 weeks, how often have you been bothered by any of the following problems?
+Bot: [1/7] Feeling nervous, anxious or on edge?
+User: 1
+Bot: [2/7] Not being able to stop or control worrying?
+User: 2
+Bot: [3/7] Worrying too much about different things?
+User: 0
+Bot: [4/7] Trouble relaxing?
+User: 1
+Bot: [5/7] Being so restless that it is hard to sit still?
+User: 3
+Bot: [6/7] Becoming easily annoyed or irritable?
+User: 2
+Bot: [7/7] Feeling afraid as if something awful might happen?
+User: 0
+Bot: Thanks guest, your answers have been recorded!
+Bot: Your Generalised Anxiety Disorder Questionnaire 
+ 
+ (GAD-7) Total is: 9/21
+ 
+You are likely to have a mild anxiety. 
+ 
+If you wish to know more about the GAD-7 Test, follow the link: https://patient.info/doctor/generalised-anxiety-disorder-assessment-gad-7#ref-2 
+ 
+
+Bot: Would you like me to share your GAD-7 test results via email?
+User: /affirm
+Bot: Please enter your email address.
+User: adhi
+Bot: Thanks for providing the details. We have sent you a mail at adhi
+

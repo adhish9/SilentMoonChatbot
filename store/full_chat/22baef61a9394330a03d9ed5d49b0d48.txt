@@ -1,0 +1,69 @@
+2021-12-17 11:40:01.576067,22baef61a9394330a03d9ed5d49b0d48
+User: /greet
+Bot: Hello there! Welcome to Silent Moon!
+User: hi
+Bot: What should I address you as?
+User: fat
+Bot: Nice name, fat!
+Bot: Would you like to name me?
+User: /deny
+Bot: I'm excited to get to know you! Let's get started.
+Bot: What is your age?
+User: 24
+Bot: For how many hours have you been sleeping per day for the past few days?
+User: /inform_sleep{"sleep_hours":"5-8"}
+Bot: When was the last time you got a blood test done?
+User: /inform_blood_test{"blood_test":"In the last six months"}
+Bot: What does your current mood look like?
+User: Depressed
+Bot: It can be difficult to identify our feelings, thank you for being aware.
+Bot: How intense is the feeling?
+User: Moderate
+Bot: Do you know why you are struggling with that?
+User: Work
+Bot: Sometimes, work can be major stressor in many people's lives. 
+It is important to find the right balance to stay focused and motivated.
+Bot: Would you like to take a quick test that helps determine the likeliness of having a mental disorder? 
+(Kessler Psychological Distress Scale (K10) - 10 multiple choice questions)
+User: /affirm
+Bot: K10 Test:
+Bot: [1/10] During the last 30 days, about how often did you feel tired out for no good reason?
+User: 3
+Bot: Okay. 
+[2/10] During the last 30 days, about how often did you feel nervous?
+User: 3
+Bot: [3/10] During the last 30 days, about how often did you feel so nervous that nothing could calm you down?
+User: 2
+Bot: [4/10] During the last 30 days, about how often did you feel hopeless?
+User: 4
+Bot: [5/10] During the last 30 days, about how often did you feel restless or fidgety?
+User: 3
+Bot: [6/10] During the last 30 days, about how often did you feel so restless you could not sit still?
+User: 5
+Bot: [7/10] During the last 30 days, about how often did you feel depressed?
+User: 5
+Bot: [8/10] During the last 30 days, about how often did you feel that everything was an effort?
+User: 5
+Bot: [9/10] During the last 30 days, about how often did you feel so sad that nothing could cheer you up?
+User: 5
+Bot: [10/10] During the last 30 days, about how often did you feel worthless?
+User: 5
+Bot: Thanks fat, your answers have been recorded!
+Bot: Your K10 Test Score is: 40/50
+ 
+You are likely to have a severe mental disorder.
+ 
+If you wish to know more about the K10 Test, follow the link: https://www.tac.vic.gov.au/files-to-move/media/upload/k10_english.pdf 
+ 
+
+Bot: Would you like me to share your results via email?
+User: /affirm
+Bot: Please enter your email address.
+User: fatema.hirani@welingkarmail.org
+Bot: Thanks for providing the details. We have sent you a mail at fatema.hirani@welingkarmail.org
+Bot: Thanks for providing the details. We have sent you a mail at fatema.hirani@welingkarmail.org
+Bot: Thanks for providing the details. We have sent you a mail at fatema.hirani@welingkarmail.org
+Bot: Do you want me to plan your day? 📝
+User: /deny
+Bot: Great! Use the following menu to choose an activity.
+

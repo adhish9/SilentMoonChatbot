@@ -1,0 +1,5 @@
+2021-12-15 12:04:24.652274,fa74719fae7f4cd6b49f24fd9d46541e
+User: /greet
+Bot: Hello there! Welcome to Silent Moon!
+User: hi
+

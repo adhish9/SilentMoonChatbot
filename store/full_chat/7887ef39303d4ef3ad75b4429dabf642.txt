@@ -1,0 +1,37 @@
+2021-12-22 16:31:08.939827,7887ef39303d4ef3ad75b4429dabf642
+User: /greet
+Bot: Hello there! Welcome to Silent Moon!
+User: /k10_form
+Bot: Kessler Psychological Distress Scale (K10) - 10 multiple choice questions.
+Bot: [1/10] During the last 30 days, about how often did you feel tired out for no good reason?
+User: 2
+Bot: Okay. 
+[2/10] During the last 30 days, about how often did you feel nervous?
+User: 3
+Bot: [3/10] During the last 30 days, about how often did you feel so nervous that nothing could calm you down?
+User: 3
+Bot: [4/10] During the last 30 days, about how often did you feel hopeless?
+User: 3
+Bot: [5/10] During the last 30 days, about how often did you feel restless or fidgety?
+User: 5
+Bot: [6/10] During the last 30 days, about how often did you feel so restless you could not sit still?
+User: 5
+Bot: [7/10] During the last 30 days, about how often did you feel depressed?
+User: 3
+Bot: [8/10] During the last 30 days, about how often did you feel that everything was an effort?
+User: 3
+Bot: [9/10] During the last 30 days, about how often did you feel so sad that nothing could cheer you up?
+User: 2
+Bot: [10/10] During the last 30 days, about how often did you feel worthless?
+User: 1
+Bot: Thanks guest, your answers have been recorded!
+Bot: Your K10 Test Score is: 30/50
+
+You are likely to have a severe mental disorder.
+
+Bot: Would you like receive an email to get more information on the K10 test and to understand what your test score means?
+User: /affirm
+Bot: Please enter your email address.
+User: adhish.deshpande@welingkarmail.org
+Bot: Thank you. We have sent you an email at adhish.deshpande@welingkarmail.org with your test results and more information.
+

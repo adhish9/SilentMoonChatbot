@@ -1,0 +1,21 @@
+2021-12-27 17:19:44.233575,7361af1d9d9b42748de2d9983b58b3b5
+User: /greet
+Bot: Hello there! Welcome to Silent Moon!
+User: /carousel
+Bot: None
+User: totd
+Bot: Stop complaining. Start creating.
+
+~Dale Patridge
+Bot: None
+User: tasks
+Bot: Great, let me know what's your plan for today?
+Bot: Enter a task.
+User: Tt
+Bot: Tasks for today:
+✔️Tt
+Bot: Would you like to add another task?
+User: /deny
+Bot: Tasks for today:
+✔️Tt
+

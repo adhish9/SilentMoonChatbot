@@ -1,0 +1,36 @@
+2021-12-09 17:57:31.301349,dfed07bcf7404a72b4498b8aee24239f
+User: /greet
+Bot: Hello there! Welcome to Silent Moon!
+User: hi
+Bot: What should I address you as?
+User: da
+Bot: Nice name, da!
+Bot: Would you like to name me?
+User: /affirm
+Bot: What would you like to name me?
+User: nub
+Bot: 🤖 Thank you for giving me an identity, da! I'm excited to get to know you! 😃 Let's get started.
+Bot: What is your age?
+User: 25
+Bot: For how many hours have you been sleeping per day for the past few days?
+User: /inform_sleep{"sleep_hours":"5-8"}
+Bot: When was the last time you got a blood test done?
+User: Not Sure
+Bot: What does your current mood look like?
+User: Anxious
+Bot: How intense is the feeling?
+User: Moderate
+Bot: Do you know why you are struggling with that?
+User: Relationships
+Bot: Sometimes, personal relationships can be taxing and can even take a toll mentally. 
+It is important to be empathetic and compassionate towards other people in challenging situations.
+Bot: Would you like to take a quick test that helps determine the likeliness of having a mental disorder? 
+(Kessler Psychological Distress Scale (K10) - 10 multiple choice questions)
+User: /deny
+Bot: Would you like to take a quick test that is used as a screening tool and severity measure for generalised anxiety disorder? 
+(Generalised Anxiety Disorder Assessment (GAD-7) - 7 multiple choice questions)
+User: /deny
+Bot: Do you want me to plan your day? 📝
+User: /deny
+Bot: Great, carry on!
+

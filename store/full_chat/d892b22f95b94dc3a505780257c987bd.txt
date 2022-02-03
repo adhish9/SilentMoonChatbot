@@ -1,0 +1,16 @@
+2021-12-21 16:32:50.408569,d892b22f95b94dc3a505780257c987bd
+User: /carousel
+Bot: None
+User: tasks
+Bot: Great, let me know what's your plan for today?
+Bot: Enter a task.
+User: ads
+Bot: Tasks for today:
+✔️sadasd
+✔️ads
+Bot: Would you like to add another task?
+User: /deny
+Bot: Tasks for today:
+✔️sadasd
+✔️ads
+

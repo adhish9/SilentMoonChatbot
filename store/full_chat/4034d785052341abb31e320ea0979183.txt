@@ -1,0 +1,34 @@
+2021-12-23 15:28:44.735785,4034d785052341abb31e320ea0979183
+User: /greet
+Bot: Hello there! Welcome to Silent Moon!
+User: /carousel
+Bot: None
+User: /gad_form
+Bot: Generalised Anxiety Disorder Assessment (GAD-7) - 7 multiple choice questions.
+Bot: Over the last 2 weeks, how often have you been bothered by any of the following problems?
+Bot: [1/7] Feeling nervous, anxious or on edge?
+User: 1
+Bot: [2/7] Not being able to stop or control worrying?
+User: 1
+Bot: [3/7] Worrying too much about different things?
+User: 3
+Bot: [4/7] Trouble relaxing?
+User: 3
+Bot: [5/7] Being so restless that it is hard to sit still?
+User: 0
+Bot: [6/7] Becoming easily annoyed or irritable?
+User: 1
+Bot: [7/7] Feeling afraid as if something awful might happen?
+User: 3
+Bot: Thanks guest, your answers have been recorded!
+Bot: Your Generalised Anxiety Disorder Questionnaire 
+(GAD-7) Total is: 12/21
+
+You are likely to have moderate anxiety.
+
+Bot: Would you like to understand what your test score means and receive more information on the GAD7 test via email?
+User: /affirm
+Bot: Please enter your email address.
+User: fatema.hirani@welingkarmail.org
+Bot: Thank you. We have sent you an email at fatema.hirani@welingkarmail.org with your test results and more information.
+

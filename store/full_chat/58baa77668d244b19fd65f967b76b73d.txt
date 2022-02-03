@@ -1,0 +1,526 @@
+2021-12-16 17:06:21.131876,58baa77668d244b19fd65f967b76b73d
+User: /greet
+Bot: Hello there! Welcome to Silent Moon!
+User: /carousel
+Bot: None
+User: /gad_form
+Bot: Would you like to take a quick test that is used as a screening tool and severity measure for generalised anxiety disorder? 
+(Generalised Anxiety Disorder Assessment (GAD-7) - 7 multiple choice questions)
+User: /affirm
+Bot: Over the last 2 weeks, how often have you been bothered by any of the following problems?
+Bot: [1/7] Feeling nervous, anxious or on edge?
+User: 3
+Bot: [2/7] Not being able to stop or control worrying?
+User: 2
+Bot: [3/7] Worrying too much about different things?
+User: 2
+Bot: [4/7] Trouble relaxing?
+User: 2
+Bot: [5/7] Being so restless that it is hard to sit still?
+User: 2
+Bot: [6/7] Becoming easily annoyed or irritable?
+User: 3
+Bot: [7/7] Feeling afraid as if something awful might happen?
+User: 3
+Bot: Thanks guest, your answers have been recorded!
+Bot: Your Generalised Anxiety Disorder Questionnaire 
+ 
+ (GAD-7) Total is: 17/21
+ 
+You are likely to have a severe mental anxiety. 
+ 
+If you wish to know more about the GAD-7 Test, follow the link: https://patient.info/doctor/generalised-anxiety-disorder-assessment-gad-7#ref-2 
+ 
+
+Bot: Would you like me to share your results via email?
+User: /affirm
+Bot: Please enter your email address.
+User: adhish.deshpande@gmail.com
+Bot: Thanks for providing the details. We have sent you a mail at adhish.deshpande@gmail.com
+
+User: /greet
+Bot: Hello there! Welcome to Silent Moon!
+User: /carousel
+Bot: None
+User: /gad_form
+Bot: Would you like to take a quick test that is used as a screening tool and severity measure for generalised anxiety disorder? 
+(Generalised Anxiety Disorder Assessment (GAD-7) - 7 multiple choice questions)
+User: /affirm
+Bot: Over the last 2 weeks, how often have you been bothered by any of the following problems?
+Bot: [1/7] Feeling nervous, anxious or on edge?
+User: 3
+Bot: [2/7] Not being able to stop or control worrying?
+User: 2
+Bot: [3/7] Worrying too much about different things?
+User: 2
+Bot: [4/7] Trouble relaxing?
+User: 2
+Bot: [5/7] Being so restless that it is hard to sit still?
+User: 2
+Bot: [6/7] Becoming easily annoyed or irritable?
+User: 3
+Bot: [7/7] Feeling afraid as if something awful might happen?
+User: 3
+Bot: Thanks guest, your answers have been recorded!
+Bot: Your Generalised Anxiety Disorder Questionnaire 
+ 
+ (GAD-7) Total is: 17/21
+ 
+You are likely to have a severe mental anxiety. 
+ 
+If you wish to know more about the GAD-7 Test, follow the link: https://patient.info/doctor/generalised-anxiety-disorder-assessment-gad-7#ref-2 
+ 
+
+Bot: Would you like me to share your results via email?
+User: /affirm
+Bot: Please enter your email address.
+User: adhish.deshpande@gmail.com
+Bot: Thanks for providing the details. We have sent you a mail at adhish.deshpande@gmail.com
+Bot: None
+User: /gad_form
+Bot: Would you like to take a quick test that is used as a screening tool and severity measure for generalised anxiety disorder? 
+(Generalised Anxiety Disorder Assessment (GAD-7) - 7 multiple choice questions)
+User: /affirm
+Bot: Over the last 2 weeks, how often have you been bothered by any of the following problems?
+Bot: [1/7] Feeling nervous, anxious or on edge?
+User: 1
+Bot: [2/7] Not being able to stop or control worrying?
+User: 0
+Bot: [3/7] Worrying too much about different things?
+User: 0
+Bot: [4/7] Trouble relaxing?
+User: 3
+Bot: [5/7] Being so restless that it is hard to sit still?
+User: 2
+Bot: [6/7] Becoming easily annoyed or irritable?
+User: 2
+Bot: [7/7] Feeling afraid as if something awful might happen?
+User: 1
+Bot: Thanks guest, your answers have been recorded!
+Bot: Your Generalised Anxiety Disorder Questionnaire 
+ 
+ (GAD-7) Total is: 9/21
+ 
+You are likely to have a mild anxiety. 
+ 
+If you wish to know more about the GAD-7 Test, follow the link: https://patient.info/doctor/generalised-anxiety-disorder-assessment-gad-7#ref-2 
+ 
+
+Bot: Would you like me to share your results via email?
+User: /affirm
+Bot: Thanks for providing the details. We have sent you a mail at adhish.deshpande@gmail.com
+
+User: /greet
+Bot: Hello there! Welcome to Silent Moon!
+User: /carousel
+Bot: None
+User: /gad_form
+Bot: Would you like to take a quick test that is used as a screening tool and severity measure for generalised anxiety disorder? 
+(Generalised Anxiety Disorder Assessment (GAD-7) - 7 multiple choice questions)
+User: /affirm
+Bot: Over the last 2 weeks, how often have you been bothered by any of the following problems?
+Bot: [1/7] Feeling nervous, anxious or on edge?
+User: 3
+Bot: [2/7] Not being able to stop or control worrying?
+User: 2
+Bot: [3/7] Worrying too much about different things?
+User: 2
+Bot: [4/7] Trouble relaxing?
+User: 2
+Bot: [5/7] Being so restless that it is hard to sit still?
+User: 2
+Bot: [6/7] Becoming easily annoyed or irritable?
+User: 3
+Bot: [7/7] Feeling afraid as if something awful might happen?
+User: 3
+Bot: Thanks guest, your answers have been recorded!
+Bot: Your Generalised Anxiety Disorder Questionnaire 
+ 
+ (GAD-7) Total is: 17/21
+ 
+You are likely to have a severe mental anxiety. 
+ 
+If you wish to know more about the GAD-7 Test, follow the link: https://patient.info/doctor/generalised-anxiety-disorder-assessment-gad-7#ref-2 
+ 
+
+Bot: Would you like me to share your results via email?
+User: /affirm
+Bot: Please enter your email address.
+User: adhish.deshpande@gmail.com
+Bot: Thanks for providing the details. We have sent you a mail at adhish.deshpande@gmail.com
+Bot: None
+User: /gad_form
+Bot: Would you like to take a quick test that is used as a screening tool and severity measure for generalised anxiety disorder? 
+(Generalised Anxiety Disorder Assessment (GAD-7) - 7 multiple choice questions)
+User: /affirm
+Bot: Over the last 2 weeks, how often have you been bothered by any of the following problems?
+Bot: [1/7] Feeling nervous, anxious or on edge?
+User: 1
+Bot: [2/7] Not being able to stop or control worrying?
+User: 0
+Bot: [3/7] Worrying too much about different things?
+User: 0
+Bot: [4/7] Trouble relaxing?
+User: 3
+Bot: [5/7] Being so restless that it is hard to sit still?
+User: 2
+Bot: [6/7] Becoming easily annoyed or irritable?
+User: 2
+Bot: [7/7] Feeling afraid as if something awful might happen?
+User: 1
+Bot: Thanks guest, your answers have been recorded!
+Bot: Your Generalised Anxiety Disorder Questionnaire 
+ 
+ (GAD-7) Total is: 9/21
+ 
+You are likely to have a mild anxiety. 
+ 
+If you wish to know more about the GAD-7 Test, follow the link: https://patient.info/doctor/generalised-anxiety-disorder-assessment-gad-7#ref-2 
+ 
+
+Bot: Would you like me to share your results via email?
+User: /affirm
+Bot: Thanks for providing the details. We have sent you a mail at adhish.deshpande@gmail.com
+Bot: None
+User: /gad_form
+Bot: Would you like to take a quick test that is used as a screening tool and severity measure for generalised anxiety disorder? 
+(Generalised Anxiety Disorder Assessment (GAD-7) - 7 multiple choice questions)
+User: /affirm
+Bot: Over the last 2 weeks, how often have you been bothered by any of the following problems?
+Bot: [1/7] Feeling nervous, anxious or on edge?
+User: 1
+Bot: [2/7] Not being able to stop or control worrying?
+User: 3
+Bot: [3/7] Worrying too much about different things?
+User: 1
+Bot: [4/7] Trouble relaxing?
+User: 3
+Bot: [5/7] Being so restless that it is hard to sit still?
+User: 1
+Bot: [6/7] Becoming easily annoyed or irritable?
+User: 3
+Bot: [7/7] Feeling afraid as if something awful might happen?
+User: 1
+Bot: Thanks guest, your answers have been recorded!
+Bot: Your Generalised Anxiety Disorder Questionnaire 
+ 
+ (GAD-7) Total is: 13/21
+ 
+You are likely to have moderate anxiety. 
+ 
+If you wish to know more about the GAD-7 Test, follow the link: https://patient.info/doctor/generalised-anxiety-disorder-assessment-gad-7#ref-2 
+ 
+
+Bot: Would you like me to share your results via email?
+User: /affirm
+Bot: Thanks for providing the details. We have sent you a mail at adhish.deshpande@gmail.com
+
+User: /greet
+Bot: Hello there! Welcome to Silent Moon!
+User: /carousel
+Bot: None
+User: /gad_form
+Bot: Would you like to take a quick test that is used as a screening tool and severity measure for generalised anxiety disorder? 
+(Generalised Anxiety Disorder Assessment (GAD-7) - 7 multiple choice questions)
+User: /affirm
+Bot: Over the last 2 weeks, how often have you been bothered by any of the following problems?
+Bot: [1/7] Feeling nervous, anxious or on edge?
+User: 3
+Bot: [2/7] Not being able to stop or control worrying?
+User: 2
+Bot: [3/7] Worrying too much about different things?
+User: 2
+Bot: [4/7] Trouble relaxing?
+User: 2
+Bot: [5/7] Being so restless that it is hard to sit still?
+User: 2
+Bot: [6/7] Becoming easily annoyed or irritable?
+User: 3
+Bot: [7/7] Feeling afraid as if something awful might happen?
+User: 3
+Bot: Thanks guest, your answers have been recorded!
+Bot: Your Generalised Anxiety Disorder Questionnaire 
+ 
+ (GAD-7) Total is: 17/21
+ 
+You are likely to have a severe mental anxiety. 
+ 
+If you wish to know more about the GAD-7 Test, follow the link: https://patient.info/doctor/generalised-anxiety-disorder-assessment-gad-7#ref-2 
+ 
+
+Bot: Would you like me to share your results via email?
+User: /affirm
+Bot: Please enter your email address.
+User: adhish.deshpande@gmail.com
+Bot: Thanks for providing the details. We have sent you a mail at adhish.deshpande@gmail.com
+Bot: None
+User: /gad_form
+Bot: Would you like to take a quick test that is used as a screening tool and severity measure for generalised anxiety disorder? 
+(Generalised Anxiety Disorder Assessment (GAD-7) - 7 multiple choice questions)
+User: /affirm
+Bot: Over the last 2 weeks, how often have you been bothered by any of the following problems?
+Bot: [1/7] Feeling nervous, anxious or on edge?
+User: 1
+Bot: [2/7] Not being able to stop or control worrying?
+User: 0
+Bot: [3/7] Worrying too much about different things?
+User: 0
+Bot: [4/7] Trouble relaxing?
+User: 3
+Bot: [5/7] Being so restless that it is hard to sit still?
+User: 2
+Bot: [6/7] Becoming easily annoyed or irritable?
+User: 2
+Bot: [7/7] Feeling afraid as if something awful might happen?
+User: 1
+Bot: Thanks guest, your answers have been recorded!
+Bot: Your Generalised Anxiety Disorder Questionnaire 
+ 
+ (GAD-7) Total is: 9/21
+ 
+You are likely to have a mild anxiety. 
+ 
+If you wish to know more about the GAD-7 Test, follow the link: https://patient.info/doctor/generalised-anxiety-disorder-assessment-gad-7#ref-2 
+ 
+
+Bot: Would you like me to share your results via email?
+User: /affirm
+Bot: Thanks for providing the details. We have sent you a mail at adhish.deshpande@gmail.com
+Bot: None
+User: /gad_form
+Bot: Would you like to take a quick test that is used as a screening tool and severity measure for generalised anxiety disorder? 
+(Generalised Anxiety Disorder Assessment (GAD-7) - 7 multiple choice questions)
+User: /affirm
+Bot: Over the last 2 weeks, how often have you been bothered by any of the following problems?
+Bot: [1/7] Feeling nervous, anxious or on edge?
+User: 1
+Bot: [2/7] Not being able to stop or control worrying?
+User: 3
+Bot: [3/7] Worrying too much about different things?
+User: 1
+Bot: [4/7] Trouble relaxing?
+User: 3
+Bot: [5/7] Being so restless that it is hard to sit still?
+User: 1
+Bot: [6/7] Becoming easily annoyed or irritable?
+User: 3
+Bot: [7/7] Feeling afraid as if something awful might happen?
+User: 1
+Bot: Thanks guest, your answers have been recorded!
+Bot: Your Generalised Anxiety Disorder Questionnaire 
+ 
+ (GAD-7) Total is: 13/21
+ 
+You are likely to have moderate anxiety. 
+ 
+If you wish to know more about the GAD-7 Test, follow the link: https://patient.info/doctor/generalised-anxiety-disorder-assessment-gad-7#ref-2 
+ 
+
+Bot: Would you like me to share your results via email?
+User: /affirm
+Bot: Thanks for providing the details. We have sent you a mail at adhish.deshpande@gmail.com
+Bot: None
+User: /gad_form
+Bot: Would you like to take a quick test that is used as a screening tool and severity measure for generalised anxiety disorder? 
+(Generalised Anxiety Disorder Assessment (GAD-7) - 7 multiple choice questions)
+User: /affirm
+Bot: Over the last 2 weeks, how often have you been bothered by any of the following problems?
+Bot: [1/7] Feeling nervous, anxious or on edge?
+User: 3
+Bot: [2/7] Not being able to stop or control worrying?
+User: 3
+Bot: [3/7] Worrying too much about different things?
+User: 3
+Bot: [4/7] Trouble relaxing?
+User: 3
+Bot: [5/7] Being so restless that it is hard to sit still?
+User: 3
+Bot: [6/7] Becoming easily annoyed or irritable?
+User: 1
+Bot: [7/7] Feeling afraid as if something awful might happen?
+User: 0
+Bot: Thanks guest, your answers have been recorded!
+Bot: Your Generalised Anxiety Disorder Questionnaire 
+ 
+ (GAD-7) Total is: 16/21
+ 
+You are likely to have a severe mental anxiety. 
+ 
+If you wish to know more about the GAD-7 Test, follow the link: https://patient.info/doctor/generalised-anxiety-disorder-assessment-gad-7#ref-2 
+ 
+
+Bot: Would you like me to share your results via email?
+User: /affirm
+Bot: Thanks for providing the details. We have sent you a mail at adhish.deshpande@gmail.com
+
+User: /greet
+Bot: Hello there! Welcome to Silent Moon!
+User: /carousel
+Bot: None
+User: /gad_form
+Bot: Would you like to take a quick test that is used as a screening tool and severity measure for generalised anxiety disorder? 
+(Generalised Anxiety Disorder Assessment (GAD-7) - 7 multiple choice questions)
+User: /affirm
+Bot: Over the last 2 weeks, how often have you been bothered by any of the following problems?
+Bot: [1/7] Feeling nervous, anxious or on edge?
+User: 3
+Bot: [2/7] Not being able to stop or control worrying?
+User: 2
+Bot: [3/7] Worrying too much about different things?
+User: 2
+Bot: [4/7] Trouble relaxing?
+User: 2
+Bot: [5/7] Being so restless that it is hard to sit still?
+User: 2
+Bot: [6/7] Becoming easily annoyed or irritable?
+User: 3
+Bot: [7/7] Feeling afraid as if something awful might happen?
+User: 3
+Bot: Thanks guest, your answers have been recorded!
+Bot: Your Generalised Anxiety Disorder Questionnaire 
+ 
+ (GAD-7) Total is: 17/21
+ 
+You are likely to have a severe mental anxiety. 
+ 
+If you wish to know more about the GAD-7 Test, follow the link: https://patient.info/doctor/generalised-anxiety-disorder-assessment-gad-7#ref-2 
+ 
+
+Bot: Would you like me to share your results via email?
+User: /affirm
+Bot: Please enter your email address.
+User: adhish.deshpande@gmail.com
+Bot: Thanks for providing the details. We have sent you a mail at adhish.deshpande@gmail.com
+Bot: None
+User: /gad_form
+Bot: Would you like to take a quick test that is used as a screening tool and severity measure for generalised anxiety disorder? 
+(Generalised Anxiety Disorder Assessment (GAD-7) - 7 multiple choice questions)
+User: /affirm
+Bot: Over the last 2 weeks, how often have you been bothered by any of the following problems?
+Bot: [1/7] Feeling nervous, anxious or on edge?
+User: 1
+Bot: [2/7] Not being able to stop or control worrying?
+User: 0
+Bot: [3/7] Worrying too much about different things?
+User: 0
+Bot: [4/7] Trouble relaxing?
+User: 3
+Bot: [5/7] Being so restless that it is hard to sit still?
+User: 2
+Bot: [6/7] Becoming easily annoyed or irritable?
+User: 2
+Bot: [7/7] Feeling afraid as if something awful might happen?
+User: 1
+Bot: Thanks guest, your answers have been recorded!
+Bot: Your Generalised Anxiety Disorder Questionnaire 
+ 
+ (GAD-7) Total is: 9/21
+ 
+You are likely to have a mild anxiety. 
+ 
+If you wish to know more about the GAD-7 Test, follow the link: https://patient.info/doctor/generalised-anxiety-disorder-assessment-gad-7#ref-2 
+ 
+
+Bot: Would you like me to share your results via email?
+User: /affirm
+Bot: Thanks for providing the details. We have sent you a mail at adhish.deshpande@gmail.com
+Bot: None
+User: /gad_form
+Bot: Would you like to take a quick test that is used as a screening tool and severity measure for generalised anxiety disorder? 
+(Generalised Anxiety Disorder Assessment (GAD-7) - 7 multiple choice questions)
+User: /affirm
+Bot: Over the last 2 weeks, how often have you been bothered by any of the following problems?
+Bot: [1/7] Feeling nervous, anxious or on edge?
+User: 1
+Bot: [2/7] Not being able to stop or control worrying?
+User: 3
+Bot: [3/7] Worrying too much about different things?
+User: 1
+Bot: [4/7] Trouble relaxing?
+User: 3
+Bot: [5/7] Being so restless that it is hard to sit still?
+User: 1
+Bot: [6/7] Becoming easily annoyed or irritable?
+User: 3
+Bot: [7/7] Feeling afraid as if something awful might happen?
+User: 1
+Bot: Thanks guest, your answers have been recorded!
+Bot: Your Generalised Anxiety Disorder Questionnaire 
+ 
+ (GAD-7) Total is: 13/21
+ 
+You are likely to have moderate anxiety. 
+ 
+If you wish to know more about the GAD-7 Test, follow the link: https://patient.info/doctor/generalised-anxiety-disorder-assessment-gad-7#ref-2 
+ 
+
+Bot: Would you like me to share your results via email?
+User: /affirm
+Bot: Thanks for providing the details. We have sent you a mail at adhish.deshpande@gmail.com
+Bot: None
+User: /gad_form
+Bot: Would you like to take a quick test that is used as a screening tool and severity measure for generalised anxiety disorder? 
+(Generalised Anxiety Disorder Assessment (GAD-7) - 7 multiple choice questions)
+User: /affirm
+Bot: Over the last 2 weeks, how often have you been bothered by any of the following problems?
+Bot: [1/7] Feeling nervous, anxious or on edge?
+User: 3
+Bot: [2/7] Not being able to stop or control worrying?
+User: 3
+Bot: [3/7] Worrying too much about different things?
+User: 3
+Bot: [4/7] Trouble relaxing?
+User: 3
+Bot: [5/7] Being so restless that it is hard to sit still?
+User: 3
+Bot: [6/7] Becoming easily annoyed or irritable?
+User: 1
+Bot: [7/7] Feeling afraid as if something awful might happen?
+User: 0
+Bot: Thanks guest, your answers have been recorded!
+Bot: Your Generalised Anxiety Disorder Questionnaire 
+ 
+ (GAD-7) Total is: 16/21
+ 
+You are likely to have a severe mental anxiety. 
+ 
+If you wish to know more about the GAD-7 Test, follow the link: https://patient.info/doctor/generalised-anxiety-disorder-assessment-gad-7#ref-2 
+ 
+
+Bot: Would you like me to share your results via email?
+User: /affirm
+Bot: Thanks for providing the details. We have sent you a mail at adhish.deshpande@gmail.com
+Bot: None
+User: /gad_form
+Bot: Would you like to take a quick test that is used as a screening tool and severity measure for generalised anxiety disorder? 
+(Generalised Anxiety Disorder Assessment (GAD-7) - 7 multiple choice questions)
+User: /affirm
+Bot: Over the last 2 weeks, how often have you been bothered by any of the following problems?
+Bot: [1/7] Feeling nervous, anxious or on edge?
+User: 3
+Bot: [2/7] Not being able to stop or control worrying?
+User: 3
+Bot: [3/7] Worrying too much about different things?
+User: 3
+Bot: [4/7] Trouble relaxing?
+User: 3
+Bot: [5/7] Being so restless that it is hard to sit still?
+User: 3
+Bot: [6/7] Becoming easily annoyed or irritable?
+User: 3
+Bot: [7/7] Feeling afraid as if something awful might happen?
+User: 1
+Bot: Thanks guest, your answers have been recorded!
+Bot: Your Generalised Anxiety Disorder Questionnaire 
+ 
+ (GAD-7) Total is: 19/21
+ 
+You are likely to have a severe mental anxiety. 
+ 
+If you wish to know more about the GAD-7 Test, follow the link: https://patient.info/doctor/generalised-anxiety-disorder-assessment-gad-7#ref-2 
+ 
+
+Bot: Would you like me to share your results via email?
+User: /affirm
+Bot: Thanks for providing the details. We have sent you a mail at adhish.deshpande@gmail.com
+

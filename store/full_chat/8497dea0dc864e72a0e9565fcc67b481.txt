@@ -1,0 +1,90 @@
+2021-12-21 17:59:04.434124,8497dea0dc864e72a0e9565fcc67b481
+User: /greet
+Bot: Hello there! Welcome to Silent Moon!
+User: /carousel
+Bot: None
+User: tasks
+Bot: Great, let me know what's your plan for today?
+Bot: Enter a task.
+User: asdasd
+Bot: Tasks for today:
+✔️asdasd
+Bot: Would you like to add another task?
+User: /affirm
+Bot: Enter a task.
+User: dasdadsad
+Bot: Tasks for today:
+✔️asdasd
+✔️dasdadsad
+Bot: Would you like to add another task?
+User: /deny
+Bot: Tasks for today:
+✔️a
+✔️s
+✔️d
+✔️a
+✔️s
+✔️d
+✔️,
+✔️d
+✔️a
+✔️s
+✔️d
+✔️a
+✔️d
+✔️s
+✔️a
+✔️d
+
+User: /greet
+Bot: Hello there! Welcome to Silent Moon!
+User: /carousel
+Bot: None
+User: tasks
+Bot: Great, let me know what's your plan for today?
+Bot: Enter a task.
+User: asdasd
+Bot: Tasks for today:
+✔️asdasd
+Bot: Would you like to add another task?
+User: /affirm
+Bot: Enter a task.
+User: dasdadsad
+Bot: Tasks for today:
+✔️asdasd
+✔️dasdadsad
+Bot: Would you like to add another task?
+User: /deny
+Bot: Tasks for today:
+✔️a
+✔️s
+✔️d
+✔️a
+✔️s
+✔️d
+✔️,
+✔️d
+✔️a
+✔️s
+✔️d
+✔️a
+✔️d
+✔️s
+✔️a
+✔️d
+Bot: None
+User: tasks
+Bot: Great, let me know what's your plan for today?
+Bot: Enter a task.
+User: dasdasda
+Bot: Tasks for today:
+✔️asdasd
+✔️dasdadsad
+✔️dasdasda
+Bot: Would you like to add another task?
+User: /deny
+Bot: Tasks for today:
+✔️asdasd
+✔️dasdadsad
+✔️dasdasda
+

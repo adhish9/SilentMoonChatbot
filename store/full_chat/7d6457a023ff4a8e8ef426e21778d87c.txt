@@ -1,0 +1,110 @@
+2022-01-28 16:56:23.629659,7d6457a023ff4a8e8ef426e21778d87c
+User: /greet
+Bot: Hello there! Welcome to Silent Moon!
+User: hi
+Bot: What should I address you as?
+User: ad
+Bot: Nice name, ad!
+Bot: Would you like to name me?
+User: /deny
+Bot: I'm excited to get to know you! Let's get started.
+Bot: What is your age?
+User: 21
+Bot: For how many hours have you been sleeping per day for the past few days?
+User: 5-8
+Bot: Sleeping helps us to recover from mental as well as physical exertion. 
+Sleep and health are strongly related - poor sleep can increase the risk of having poor health, and poor health can make it harder to sleep. Sleep disturbances can be one of the first signs of distress.
+Bot: When was the last time you got a blood test done?
+User: Not Sure
+Bot: What does your current mood look like?
+User: Anxious
+Bot: It can be difficult to identify our feelings, thank you for being aware.
+Bot: How intense is the feeling?
+User: Low
+Bot: Do you know why you are struggling with that?
+User: Work
+Bot: Sometimes, work can be major stressor in many people's lives. 
+It is important to find the right balance to stay focused and motivated.
+Bot: Would you like to take a quick test that helps determine the likeliness of having a mental disorder?
+User: /deny
+Bot: Would you like to take a quick test that is used as a screening tool and severity measure for generalised anxiety disorder? 
+User: /deny
+Bot: Do you want me to plan your day? 📝
+User: /affirm
+Bot: Great, let me know what's your plan for today?
+Bot: Enter a task.
+User: email link
+Bot: Tasks for today:
+✔️email link
+Bot: Would you like to add another task?
+User: /deny
+Bot: Tasks for today:
+✔️email link
+Bot: Use the following menu to choose an activity.
+
+User: /greet
+Bot: Hello there! Welcome to Silent Moon!
+User: hi
+Bot: What should I address you as?
+User: ad
+Bot: Nice name, ad!
+Bot: Would you like to name me?
+User: /deny
+Bot: I'm excited to get to know you! Let's get started.
+Bot: What is your age?
+User: 21
+Bot: For how many hours have you been sleeping per day for the past few days?
+User: 5-8
+Bot: Sleeping helps us to recover from mental as well as physical exertion. 
+Sleep and health are strongly related - poor sleep can increase the risk of having poor health, and poor health can make it harder to sleep. Sleep disturbances can be one of the first signs of distress.
+Bot: When was the last time you got a blood test done?
+User: Not Sure
+Bot: What does your current mood look like?
+User: Anxious
+Bot: It can be difficult to identify our feelings, thank you for being aware.
+Bot: How intense is the feeling?
+User: Low
+Bot: Do you know why you are struggling with that?
+User: Work
+Bot: Sometimes, work can be major stressor in many people's lives. 
+It is important to find the right balance to stay focused and motivated.
+Bot: Would you like to take a quick test that helps determine the likeliness of having a mental disorder?
+User: /deny
+Bot: Would you like to take a quick test that is used as a screening tool and severity measure for generalised anxiety disorder? 
+User: /deny
+Bot: Do you want me to plan your day? 📝
+User: /affirm
+Bot: Great, let me know what's your plan for today?
+Bot: Enter a task.
+User: email link
+Bot: Tasks for today:
+✔️email link
+Bot: Would you like to add another task?
+User: /deny
+Bot: Tasks for today:
+✔️email link
+Bot: Use the following menu to choose an activity.
+Bot: None
+User: totd
+Bot: Some men see things as they are and say why.. I dream things that never were and say why not.
+
+~George Bernard Shaw
+Bot: None
+User: mood_booster
+Bot: Here's a playlist that could help you boost your mood!
+User: /images
+User: /image
+Bot: Image test!
+User: /video
+Bot: Video test!
+User: /main_form
+Bot: For how many hours have you been sleeping per day for the past few days?
+User: mood_booster
+Bot: While sleep requirements vary slightly from person to person, most healthy adults need 7 to 9 hours of sleep per night to function at their best.
+Bot: When was the last time you got a blood test done?
+User: totd
+Bot: What does your current mood look like?
+User: Not sure
+Bot: No problem. 🙂
+Bot: It can be difficult to identify our feelings, thank you for being aware.
+

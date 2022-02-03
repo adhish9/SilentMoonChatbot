@@ -1,0 +1,5 @@
+2021-12-15 12:04:24.645274,ddb80a4bc96a48f089b398d34a40256e
+User: hi
+Bot: Hello there! Welcome to Silent Moon!
+User: hi
+
